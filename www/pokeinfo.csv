@@ -1,0 +1,722 @@
+"species_id","id","height","weight","has_mega","identifier","generation_id","color_id","shape_id","habitat_id","gender_rate","is_baby","has_gender_differences","forms_switchable","evo_stage","n_evo_stage","has_evo","is_evolved","colour","shape","habitat","name","genus","type_1","type_2"
+1,1,0.7,6.9,0,"bulbasaur",1,5,8,3,1,0,0,0,1,3,1,0,"Green","Pokémon with a quadruped body","grassland","Bulbasaur","Seed","Grass","Poison"
+2,2,1,13,0,"ivysaur",1,5,8,3,1,0,0,0,2,3,1,1,"Green","Pokémon with a quadruped body","grassland","Ivysaur","Seed","Grass","Poison"
+3,3,2,100,1,"venusaur",1,5,8,3,1,0,1,1,3,3,0,1,"Green","Pokémon with a quadruped body","grassland","Venusaur","Seed","Grass","Poison"
+4,4,0.6,8.5,0,"charmander",1,8,6,4,1,0,0,0,1,3,1,0,"Red","Pokémon with a bipedal, tailed form","mountain","Charmander","Lizard","Fire",
+5,5,1.1,19,0,"charmeleon",1,8,6,4,1,0,0,0,2,3,1,1,"Red","Pokémon with a bipedal, tailed form","mountain","Charmeleon","Flame","Fire",
+6,6,1.7,90.5,0,"charizard",1,8,6,4,1,0,0,1,3,3,0,1,"Red","Pokémon with a bipedal, tailed form","mountain","Charizard","Flame","Fire","Flying"
+7,7,0.5,9,0,"squirtle",1,2,6,9,1,0,0,0,1,3,1,0,"Blue","Pokémon with a bipedal, tailed form","water's edge","Squirtle","Tiny Turtle","Water",
+8,8,1,22.5,0,"wartortle",1,2,6,9,1,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Wartortle","Turtle","Water",
+9,9,1.6,85.5,1,"blastoise",1,2,6,9,1,0,0,1,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Blastoise","Shellfish","Water",
+10,10,0.3,2.9,0,"caterpie",1,5,2,2,4,0,0,0,1,3,1,0,"Green","Pokémon with serpentine bodies","forest","Caterpie","Worm","Bug",
+11,11,0.7,9.9,0,"metapod",1,5,2,2,4,0,0,0,2,3,1,1,"Green","Pokémon with serpentine bodies","forest","Metapod","Cocoon","Bug",
+12,12,1.1,32,0,"butterfree",1,9,13,2,4,0,1,0,3,3,0,1,"White","Pokémon with two or more pairs of wings","forest","Butterfree","Butterfly","Bug","Flying"
+13,13,0.3,3.2,0,"weedle",1,3,2,2,4,0,0,0,1,3,1,0,"Brown","Pokémon with serpentine bodies","forest","Weedle","Hairy Bug","Bug","Poison"
+14,14,0.6,10,0,"kakuna",1,10,2,2,4,0,0,0,2,3,1,1,"Yellow","Pokémon with serpentine bodies","forest","Kakuna","Cocoon","Bug","Poison"
+15,15,1,29.5,1,"beedrill",1,10,13,2,4,0,0,1,3,3,0,1,"Yellow","Pokémon with two or more pairs of wings","forest","Beedrill","Poison Bee","Bug","Poison"
+16,16,0.3,1.8,0,"pidgey",1,3,9,2,4,0,0,0,1,3,1,0,"Brown","Pokémon with a single pair of wings","forest","Pidgey","Tiny Bird","Normal","Flying"
+17,17,1.1,30,0,"pidgeotto",1,3,9,2,4,0,0,0,2,3,1,1,"Brown","Pokémon with a single pair of wings","forest","Pidgeotto","Bird","Normal","Flying"
+18,18,1.5,39.5,1,"pidgeot",1,3,9,2,4,0,0,1,3,3,0,1,"Brown","Pokémon with a single pair of wings","forest","Pidgeot","Bird","Normal","Flying"
+19,19,0.3,3.5,0,"rattata",1,7,8,3,4,0,1,0,1,2,1,0,"Purple","Pokémon with a quadruped body","grassland","Rattata","Mouse","Normal",
+20,20,0.7,18.5,0,"raticate",1,3,8,3,4,0,1,0,2,2,0,1,"Brown","Pokémon with a quadruped body","grassland","Raticate","Mouse","Normal",
+21,21,0.3,2,0,"spearow",1,3,9,6,4,0,0,0,1,2,1,0,"Brown","Pokémon with a single pair of wings","rough terrain","Spearow","Tiny Bird","Normal","Flying"
+22,22,1.2,38,0,"fearow",1,3,9,6,4,0,0,0,2,2,0,1,"Brown","Pokémon with a single pair of wings","rough terrain","Fearow","Beak","Normal","Flying"
+23,23,2,6.9,0,"ekans",1,7,2,3,4,0,0,0,1,2,1,0,"Purple","Pokémon with serpentine bodies","grassland","Ekans","Snake","Poison",
+24,24,3.5,65,0,"arbok",1,7,2,3,4,0,0,0,2,2,0,1,"Purple","Pokémon with serpentine bodies","grassland","Arbok","Cobra","Poison",
+25,25,0.4,6,0,"pikachu",1,10,8,2,4,0,1,0,2,3,1,1,"Yellow","Pokémon with a quadruped body","forest","Pikachu","Mouse","Electric",
+26,26,0.8,30,0,"raichu",1,10,6,2,4,0,1,0,3,3,0,1,"Yellow","Pokémon with a bipedal, tailed form","forest","Raichu","Mouse","Electric",
+27,27,0.6,12,0,"sandshrew",1,10,6,6,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailed form","rough terrain","Sandshrew","Mouse","Ground",
+28,28,1,29.5,0,"sandslash",1,10,6,6,4,0,0,0,2,2,0,1,"Yellow","Pokémon with a bipedal, tailed form","rough terrain","Sandslash","Mouse","Ground",
+29,29,0.4,7,0,"nidoran-f",1,2,8,3,8,0,0,0,1,3,1,0,"Blue","Pokémon with a quadruped body","grassland","Nidoran<U+2640>","Poison Pin","Poison",
+30,30,0.8,20,0,"nidorina",1,2,8,3,8,0,0,0,2,3,1,1,"Blue","Pokémon with a quadruped body","grassland","Nidorina","Poison Pin","Poison",
+31,31,1.3,60,0,"nidoqueen",1,2,6,3,8,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","grassland","Nidoqueen","Drill","Poison","Ground"
+32,32,0.5,9,0,"nidoran-m",1,7,8,3,0,0,0,0,1,3,1,0,"Purple","Pokémon with a quadruped body","grassland","Nidoran<U+2642>","Poison Pin","Poison",
+33,33,0.9,19.5,0,"nidorino",1,7,8,3,0,0,0,0,2,3,1,1,"Purple","Pokémon with a quadruped body","grassland","Nidorino","Poison Pin","Poison",
+34,34,1.4,62,0,"nidoking",1,7,6,3,0,0,0,0,3,3,0,1,"Purple","Pokémon with a bipedal, tailed form","grassland","Nidoking","Drill","Poison","Ground"
+35,35,0.6,7.5,0,"clefairy",1,6,6,4,6,0,0,0,2,3,1,1,"Pink","Pokémon with a bipedal, tailed form","mountain","Clefairy","Fairy","Fairy",
+36,36,1.3,40,0,"clefable",1,6,6,4,6,0,0,0,3,3,0,1,"Pink","Pokémon with a bipedal, tailed form","mountain","Clefable","Fairy","Fairy",
+37,37,0.6,9.9,0,"vulpix",1,3,8,3,6,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body","grassland","Vulpix","Fox","Fire",
+38,38,1.1,19.9,0,"ninetales",1,10,8,3,6,0,0,0,2,2,0,1,"Yellow","Pokémon with a quadruped body","grassland","Ninetales","Fox","Fire",
+39,39,0.5,5.5,0,"jigglypuff",1,6,12,3,6,0,0,0,2,3,1,1,"Pink","Pokémon with a bipedal, tailless form","grassland","Jigglypuff","Balloon","Normal","Fairy"
+40,40,1,12,0,"wigglytuff",1,6,12,3,6,0,0,0,3,3,0,1,"Pink","Pokémon with a bipedal, tailless form","grassland","Wigglytuff","Balloon","Normal","Fairy"
+41,41,0.8,7.5,0,"zubat",1,7,9,1,4,0,1,0,1,3,1,0,"Purple","Pokémon with a single pair of wings","cave","Zubat","Bat","Poison","Flying"
+42,42,1.6,55,0,"golbat",1,7,9,1,4,0,1,0,2,3,1,1,"Purple","Pokémon with a single pair of wings","cave","Golbat","Bat","Poison","Flying"
+43,43,0.5,5.4,0,"oddish",1,2,7,3,4,0,0,0,1,3,1,0,"Blue","Pokémon consisting of a head and legs","grassland","Oddish","Weed","Grass","Poison"
+44,44,0.8,8.6,0,"gloom",1,2,12,3,4,0,1,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailless form","grassland","Gloom","Weed","Grass","Poison"
+45,45,1.2,18.6,0,"vileplume",1,8,12,3,4,0,1,0,3,3,0,1,"Red","Pokémon with a bipedal, tailless form","grassland","Vileplume","Flower","Grass","Poison"
+46,46,0.3,5.4,0,"paras",1,8,14,2,4,0,0,0,1,2,1,0,"Red","Pokémon with an insectoid body","forest","Paras","Mushroom","Bug","Grass"
+47,47,1,29.5,0,"parasect",1,8,14,2,4,0,0,0,2,2,0,1,"Red","Pokémon with an insectoid body","forest","Parasect","Mushroom","Bug","Grass"
+48,48,1,30,0,"venonat",1,7,12,2,4,0,0,0,1,2,1,0,"Purple","Pokémon with a bipedal, tailless form","forest","Venonat","Insect","Bug","Poison"
+49,49,1.5,12.5,0,"venomoth",1,7,13,2,4,0,0,0,2,2,0,1,"Purple","Pokémon with two or more pairs of wings","forest","Venomoth","Poison Moth","Bug","Poison"
+50,50,0.2,0.8,0,"diglett",1,3,5,1,4,0,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and a base","cave","Diglett","Mole","Ground",
+51,51,0.7,33.3,0,"dugtrio",1,3,11,1,4,0,0,0,2,2,0,1,"Brown","Pokémon consisting of multiple bodies","cave","Dugtrio","Mole","Ground",
+52,52,0.4,4.2,0,"meowth",1,10,8,8,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a quadruped body","urban","Meowth","Scratch Cat","Normal",
+53,53,1,32,0,"persian",1,10,8,8,4,0,0,0,2,2,0,1,"Yellow","Pokémon with a quadruped body","urban","Persian","Classy Cat","Normal",
+54,54,0.8,19.6,0,"psyduck",1,10,6,9,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailed form","water's edge","Psyduck","Duck","Water",
+55,55,1.7,76.6,0,"golduck",1,2,6,9,4,0,0,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Golduck","Duck","Water",
+56,56,0.5,28,0,"mankey",1,3,6,4,4,0,0,0,1,2,1,0,"Brown","Pokémon with a bipedal, tailed form","mountain","Mankey","Pig Monkey","Fighting",
+57,57,1,32,0,"primeape",1,3,6,4,4,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form","mountain","Primeape","Pig Monkey","Fighting",
+58,58,0.7,19,0,"growlithe",1,3,8,3,2,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body","grassland","Growlithe","Puppy","Fire",
+59,59,1.9,155,0,"arcanine",1,3,8,3,2,0,0,0,2,2,0,1,"Brown","Pokémon with a quadruped body","grassland","Arcanine","Legendary","Fire",
+60,60,0.6,12.4,0,"poliwag",1,2,7,9,4,0,0,0,1,3,1,0,"Blue","Pokémon consisting of a head and legs","water's edge","Poliwag","Tadpole","Water",
+61,61,1,20,0,"poliwhirl",1,2,12,9,4,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailless form","water's edge","Poliwhirl","Tadpole","Water",
+62,62,1.3,54,0,"poliwrath",1,2,12,9,4,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailless form","water's edge","Poliwrath","Tadpole","Water","Fighting"
+63,63,0.9,19.5,0,"abra",1,3,6,8,2,0,0,0,1,3,1,0,"Brown","Pokémon with a bipedal, tailed form","urban","Abra","Psi","Psychic",
+64,64,1.3,56.5,0,"kadabra",1,3,6,8,2,0,1,0,2,3,1,1,"Brown","Pokémon with a bipedal, tailed form","urban","Kadabra","Psi","Psychic",
+65,65,1.5,48,1,"alakazam",1,3,12,8,2,0,1,1,3,3,0,1,"Brown","Pokémon with a bipedal, tailless form","urban","Alakazam","Psi","Psychic",
+66,66,0.8,19.5,0,"machop",1,4,6,4,2,0,0,0,1,3,1,0,"Gray","Pokémon with a bipedal, tailed form","mountain","Machop","Superpower","Fighting",
+67,67,1.5,70.5,0,"machoke",1,4,12,4,2,0,0,0,2,3,1,1,"Gray","Pokémon with a bipedal, tailless form","mountain","Machoke","Superpower","Fighting",
+68,68,1.6,130,0,"machamp",1,4,12,4,2,0,0,0,3,3,0,1,"Gray","Pokémon with a bipedal, tailless form","mountain","Machamp","Superpower","Fighting",
+69,69,0.7,4,0,"bellsprout",1,5,12,2,4,0,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailless form","forest","Bellsprout","Flower","Grass","Poison"
+70,70,1,6.4,0,"weepinbell",1,5,5,2,4,0,0,0,2,3,1,1,"Green","Pokémon consisting of a head and a base","forest","Weepinbell","Flycatcher","Grass","Poison"
+71,71,1.7,15.5,0,"victreebel",1,5,5,2,4,0,0,0,3,3,0,1,"Green","Pokémon consisting of a head and a base","forest","Victreebel","Flycatcher","Grass","Poison"
+72,72,0.9,45.5,0,"tentacool",1,2,10,7,4,0,0,0,1,2,1,0,"Blue","Pokémon with tentacles or a multiped body","sea","Tentacool","Jellyfish","Water","Poison"
+73,73,1.6,55,0,"tentacruel",1,2,10,7,4,0,0,0,2,2,0,1,"Blue","Pokémon with tentacles or a multiped body","sea","Tentacruel","Jellyfish","Water","Poison"
+74,74,0.4,20,0,"geodude",1,3,4,4,4,0,0,0,1,3,1,0,"Brown","Pokémon consisting of a head and arms","mountain","Geodude","Rock","Rock","Ground"
+75,75,1,105,0,"graveler",1,3,12,4,4,0,0,0,2,3,1,1,"Brown","Pokémon with a bipedal, tailless form","mountain","Graveler","Rock","Rock","Ground"
+76,76,1.4,300,0,"golem",1,3,12,4,4,0,0,0,3,3,0,1,"Brown","Pokémon with a bipedal, tailless form","mountain","Golem","Megaton","Rock","Ground"
+77,77,1,30,0,"ponyta",1,10,8,3,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a quadruped body","grassland","Ponyta","Fire Horse","Fire",
+78,78,1.7,95,0,"rapidash",1,10,8,3,4,0,0,0,2,2,0,1,"Yellow","Pokémon with a quadruped body","grassland","Rapidash","Fire Horse","Fire",
+79,79,1.2,36,0,"slowpoke",1,6,8,9,4,0,0,0,1,2,1,0,"Pink","Pokémon with a quadruped body","water's edge","Slowpoke","Dopey","Water","Psychic"
+80,80,1.6,78.5,1,"slowbro",1,6,6,9,4,0,0,1,2,2,0,1,"Pink","Pokémon with a bipedal, tailed form","water's edge","Slowbro","Hermit Crab","Water","Psychic"
+81,81,0.3,6,0,"magnemite",1,4,4,6,-1,0,0,0,1,3,1,0,"Gray","Pokémon consisting of a head and arms","rough terrain","Magnemite","Magnet","Electric","Steel"
+82,82,1,60,0,"magneton",1,4,11,6,-1,0,0,0,2,3,1,1,"Gray","Pokémon consisting of multiple bodies","rough terrain","Magneton","Magnet","Electric","Steel"
+83,83,0.8,15,0,"farfetchd",1,3,9,3,4,0,0,0,1,1,0,0,"Brown","Pokémon with a single pair of wings","grassland","Farfetch'd","Wild Duck","Normal","Flying"
+84,84,1.4,39.2,0,"doduo",1,3,7,3,4,0,1,0,1,2,1,0,"Brown","Pokémon consisting of a head and legs","grassland","Doduo","Twin Bird","Normal","Flying"
+85,85,1.8,85.2,0,"dodrio",1,3,7,3,4,0,1,0,2,2,0,1,"Brown","Pokémon consisting of a head and legs","grassland","Dodrio","Triple Bird","Normal","Flying"
+86,86,1.1,90,0,"seel",1,9,3,7,4,0,0,0,1,2,1,0,"White","Pokémon with fins","sea","Seel","Sea Lion","Water",
+87,87,1.7,120,0,"dewgong",1,9,3,7,4,0,0,0,2,2,0,1,"White","Pokémon with fins","sea","Dewgong","Sea Lion","Water","Ice"
+88,88,0.9,30,0,"grimer",1,7,4,8,4,0,0,0,1,2,1,0,"Purple","Pokémon consisting of a head and arms","urban","Grimer","Sludge","Poison",
+89,89,1.2,30,0,"muk",1,7,4,8,4,0,0,0,2,2,0,1,"Purple","Pokémon consisting of a head and arms","urban","Muk","Sludge","Poison",
+90,90,0.3,4,0,"shellder",1,7,1,7,4,0,0,0,1,2,1,0,"Purple","Pokémon consisting of only a head","sea","Shellder","Bivalve","Water",
+91,91,1.5,132.5,0,"cloyster",1,7,1,7,4,0,0,0,2,2,0,1,"Purple","Pokémon consisting of only a head","sea","Cloyster","Bivalve","Water","Ice"
+92,92,1.3,0.1,0,"gastly",1,7,1,1,4,0,0,0,1,3,1,0,"Purple","Pokémon consisting of only a head","cave","Gastly","Gas","Ghost","Poison"
+93,93,1.6,0.1,0,"haunter",1,7,4,1,4,0,0,0,2,3,1,1,"Purple","Pokémon consisting of a head and arms","cave","Haunter","Gas","Ghost","Poison"
+94,94,1.5,40.5,1,"gengar",1,7,6,1,4,0,0,1,3,3,0,1,"Purple","Pokémon with a bipedal, tailed form","cave","Gengar","Shadow","Ghost","Poison"
+95,95,8.8,210,0,"onix",1,4,2,1,4,0,0,0,1,2,1,0,"Gray","Pokémon with serpentine bodies","cave","Onix","Rock Snake","Rock","Ground"
+96,96,1,32.4,0,"drowzee",1,10,12,3,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailless form","grassland","Drowzee","Hypnosis","Psychic",
+97,97,1.6,75.6,0,"hypno",1,10,12,3,4,0,1,0,2,2,0,1,"Yellow","Pokémon with a bipedal, tailless form","grassland","Hypno","Hypnosis","Psychic",
+98,98,0.4,6.5,0,"krabby",1,8,14,9,4,0,0,0,1,2,1,0,"Red","Pokémon with an insectoid body","water's edge","Krabby","River Crab","Water",
+99,99,1.3,60,0,"kingler",1,8,14,9,4,0,0,0,2,2,0,1,"Red","Pokémon with an insectoid body","water's edge","Kingler","Pincer","Water",
+100,100,0.5,10.4,0,"voltorb",1,8,1,8,-1,0,0,0,1,2,1,0,"Red","Pokémon consisting of only a head","urban","Voltorb","Ball","Electric",
+101,101,1.2,66.6,0,"electrode",1,8,1,8,-1,0,0,0,2,2,0,1,"Red","Pokémon consisting of only a head","urban","Electrode","Ball","Electric",
+102,102,0.4,2.5,0,"exeggcute",1,6,11,2,4,0,0,0,1,2,1,0,"Pink","Pokémon consisting of multiple bodies","forest","Exeggcute","Egg","Grass","Psychic"
+103,103,2,120,0,"exeggutor",1,10,7,2,4,0,0,0,2,2,0,1,"Yellow","Pokémon consisting of a head and legs","forest","Exeggutor","Coconut","Grass","Psychic"
+104,104,0.4,6.5,0,"cubone",1,3,6,4,4,0,0,0,1,2,1,0,"Brown","Pokémon with a bipedal, tailed form","mountain","Cubone","Lonely","Ground",
+105,105,1,45,0,"marowak",1,3,6,4,4,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form","mountain","Marowak","Bone Keeper","Ground",
+106,106,1.5,49.8,0,"hitmonlee",1,3,12,8,0,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailless form","urban","Hitmonlee","Kicking","Fighting",
+107,107,1.4,50.2,0,"hitmonchan",1,3,12,8,0,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailless form","urban","Hitmonchan","Punching","Fighting",
+108,108,1.2,65.5,0,"lickitung",1,6,6,3,4,0,0,0,1,2,1,0,"Pink","Pokémon with a bipedal, tailed form","grassland","Lickitung","Licking","Normal",
+109,109,0.6,1,0,"koffing",1,7,1,8,4,0,0,0,1,2,1,0,"Purple","Pokémon consisting of only a head","urban","Koffing","Poison Gas","Poison",
+110,110,1.2,9.5,0,"weezing",1,7,11,8,4,0,0,0,2,2,0,1,"Purple","Pokémon consisting of multiple bodies","urban","Weezing","Poison Gas","Poison",
+111,111,1,115,0,"rhyhorn",1,4,8,6,4,0,1,0,1,3,1,0,"Gray","Pokémon with a quadruped body","rough terrain","Rhyhorn","Spikes","Ground","Rock"
+112,112,1.9,120,0,"rhydon",1,4,6,6,4,0,1,0,2,3,1,1,"Gray","Pokémon with a bipedal, tailed form","rough terrain","Rhydon","Drill","Ground","Rock"
+113,113,1.1,34.6,0,"chansey",1,6,6,8,8,0,0,0,2,3,1,1,"Pink","Pokémon with a bipedal, tailed form","urban","Chansey","Egg","Normal",
+114,114,1,35,0,"tangela",1,2,7,3,4,0,0,0,1,2,1,0,"Blue","Pokémon consisting of a head and legs","grassland","Tangela","Vine","Grass",
+115,115,2.2,80,1,"kangaskhan",1,3,6,3,8,0,0,1,1,1,0,0,"Brown","Pokémon with a bipedal, tailed form","grassland","Kangaskhan","Parent","Normal",
+116,116,0.4,8,0,"horsea",1,2,5,7,4,0,0,0,1,3,1,0,"Blue","Pokémon consisting of a head and a base","sea","Horsea","Dragon","Water",
+117,117,1.2,25,0,"seadra",1,2,5,7,4,0,0,0,2,3,1,1,"Blue","Pokémon consisting of a head and a base","sea","Seadra","Dragon","Water",
+118,118,0.6,15,0,"goldeen",1,8,3,9,4,0,1,0,1,2,1,0,"Red","Pokémon with fins","water's edge","Goldeen","Goldfish","Water",
+119,119,1.3,39,0,"seaking",1,8,3,9,4,0,1,0,2,2,0,1,"Red","Pokémon with fins","water's edge","Seaking","Goldfish","Water",
+120,120,0.8,34.5,0,"staryu",1,3,5,7,-1,0,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and a base","sea","Staryu","Star Shape","Water",
+121,121,1.1,80,0,"starmie",1,7,5,7,-1,0,0,0,2,2,0,1,"Purple","Pokémon consisting of a head and a base","sea","Starmie","Mysterious","Water","Psychic"
+122,122,1.3,54.5,0,"mr-mime",1,6,12,8,4,0,0,0,2,2,0,1,"Pink","Pokémon with a bipedal, tailless form","urban","Mr. Mime","Barrier","Psychic","Fairy"
+123,123,1.5,56,0,"scyther",1,5,13,3,4,0,1,0,1,2,1,0,"Green","Pokémon with two or more pairs of wings","grassland","Scyther","Mantis","Bug","Flying"
+124,124,1.4,40.6,0,"jynx",1,8,12,8,8,0,0,0,2,2,0,1,"Red","Pokémon with a bipedal, tailless form","urban","Jynx","Human Shape","Ice","Psychic"
+125,125,1.1,30,0,"electabuzz",1,10,6,3,2,0,0,0,2,3,1,1,"Yellow","Pokémon with a bipedal, tailed form","grassland","Electabuzz","Electric","Electric",
+126,126,1.3,44.5,0,"magmar",1,8,6,4,2,0,0,0,2,3,1,1,"Red","Pokémon with a bipedal, tailed form","mountain","Magmar","Spitfire","Fire",
+127,127,1.5,55,1,"pinsir",1,3,12,2,4,0,0,1,1,1,0,0,"Brown","Pokémon with a bipedal, tailless form","forest","Pinsir","Stag Beetle","Bug",
+128,128,1.4,88.4,0,"tauros",1,3,8,3,0,0,0,0,1,1,0,0,"Brown","Pokémon with a quadruped body","grassland","Tauros","Wild Bull","Normal",
+129,129,0.9,10,0,"magikarp",1,8,3,9,4,0,1,0,1,2,1,0,"Red","Pokémon with fins","water's edge","Magikarp","Fish","Water",
+130,130,6.5,235,1,"gyarados",1,2,2,9,4,0,1,1,2,2,0,1,"Blue","Pokémon with serpentine bodies","water's edge","Gyarados","Atrocious","Water","Flying"
+131,131,2.5,220,0,"lapras",1,2,3,7,4,0,0,0,1,1,0,0,"Blue","Pokémon with fins","sea","Lapras","Transport","Water","Ice"
+132,132,0.3,4,0,"ditto",1,7,1,8,-1,0,0,0,1,1,0,0,"Purple","Pokémon consisting of only a head","urban","Ditto","Transform","Normal",
+133,133,0.3,6.5,0,"eevee",1,3,8,8,1,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body","urban","Eevee","Evolution","Normal",
+134,134,1,29,0,"vaporeon",1,2,8,8,1,0,0,0,2,2,0,1,"Blue","Pokémon with a quadruped body","urban","Vaporeon","Bubble Jet","Water",
+135,135,0.8,24.5,0,"jolteon",1,10,8,8,1,0,0,0,2,2,0,1,"Yellow","Pokémon with a quadruped body","urban","Jolteon","Lightning","Electric",
+136,136,0.9,25,0,"flareon",1,8,8,8,1,0,0,0,2,2,0,1,"Red","Pokémon with a quadruped body","urban","Flareon","Flame","Fire",
+137,137,0.8,36.5,0,"porygon",1,6,7,8,-1,0,0,0,1,3,1,0,"Pink","Pokémon consisting of a head and legs","urban","Porygon","Virtual","Normal",
+138,138,0.4,7.5,0,"omanyte",1,2,10,7,1,0,0,0,1,2,1,0,"Blue","Pokémon with tentacles or a multiped body","sea","Omanyte","Spiral","Rock","Water"
+139,139,1,35,0,"omastar",1,2,10,7,1,0,0,0,2,2,0,1,"Blue","Pokémon with tentacles or a multiped body","sea","Omastar","Spiral","Rock","Water"
+140,140,0.5,11.5,0,"kabuto",1,3,14,7,1,0,0,0,1,2,1,0,"Brown","Pokémon with an insectoid body","sea","Kabuto","Shellfish","Rock","Water"
+141,141,1.3,40.5,0,"kabutops",1,3,6,7,1,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form","sea","Kabutops","Shellfish","Rock","Water"
+142,142,1.8,59,1,"aerodactyl",1,7,9,4,1,0,0,1,1,1,0,0,"Purple","Pokémon with a single pair of wings","mountain","Aerodactyl","Fossil","Rock","Flying"
+143,143,2.1,460,0,"snorlax",1,1,12,4,1,0,0,0,2,2,0,1,"Black","Pokémon with a bipedal, tailless form","mountain","Snorlax","Sleeping","Normal",
+144,144,1.7,55.4,0,"articuno",1,2,9,5,-1,0,0,0,1,1,0,0,"Blue","Pokémon with a single pair of wings","rare","Articuno","Freeze","Ice","Flying"
+145,145,1.6,52.6,0,"zapdos",1,10,9,5,-1,0,0,0,1,1,0,0,"Yellow","Pokémon with a single pair of wings","rare","Zapdos","Electric","Electric","Flying"
+146,146,2,60,0,"moltres",1,10,9,5,-1,0,0,0,1,1,0,0,"Yellow","Pokémon with a single pair of wings","rare","Moltres","Flame","Fire","Flying"
+147,147,1.8,3.3,0,"dratini",1,2,2,9,4,0,0,0,1,3,1,0,"Blue","Pokémon with serpentine bodies","water's edge","Dratini","Dragon","Dragon",
+148,148,4,16.5,0,"dragonair",1,2,2,9,4,0,0,0,2,3,1,1,"Blue","Pokémon with serpentine bodies","water's edge","Dragonair","Dragon","Dragon",
+149,149,2.2,210,0,"dragonite",1,3,6,9,4,0,0,0,3,3,0,1,"Brown","Pokémon with a bipedal, tailed form","water's edge","Dragonite","Dragon","Dragon","Flying"
+150,150,2,122,0,"mewtwo",1,7,6,5,-1,0,0,1,1,1,0,0,"Purple","Pokémon with a bipedal, tailed form","rare","Mewtwo","Genetic","Psychic",
+151,151,0.4,4,0,"mew",1,6,6,5,-1,0,0,0,1,1,0,0,"Pink","Pokémon with a bipedal, tailed form","rare","Mew","New Species","Psychic",
+152,152,0.9,6.4,0,"chikorita",2,5,8,3,1,0,0,0,1,3,1,0,"Green","Pokémon with a quadruped body","grassland","Chikorita","Leaf","Grass",
+153,153,1.2,15.8,0,"bayleef",2,5,8,3,1,0,0,0,2,3,1,1,"Green","Pokémon with a quadruped body","grassland","Bayleef","Leaf","Grass",
+154,154,1.8,100.5,0,"meganium",2,5,8,3,1,0,1,0,3,3,0,1,"Green","Pokémon with a quadruped body","grassland","Meganium","Herb","Grass",
+155,155,0.5,7.9,0,"cyndaquil",2,10,12,3,1,0,0,0,1,3,1,0,"Yellow","Pokémon with a bipedal, tailless form","grassland","Cyndaquil","Fire Mouse","Fire",
+156,156,0.9,19,0,"quilava",2,10,8,3,1,0,0,0,2,3,1,1,"Yellow","Pokémon with a quadruped body","grassland","Quilava","Volcano","Fire",
+157,157,1.7,79.5,0,"typhlosion",2,10,8,3,1,0,0,0,3,3,0,1,"Yellow","Pokémon with a quadruped body","grassland","Typhlosion","Volcano","Fire",
+158,158,0.6,9.5,0,"totodile",2,2,6,9,1,0,0,0,1,3,1,0,"Blue","Pokémon with a bipedal, tailed form","water's edge","Totodile","Big Jaw","Water",
+159,159,1.1,25,0,"croconaw",2,2,6,9,1,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Croconaw","Big Jaw","Water",
+160,160,2.3,88.8,0,"feraligatr",2,2,6,9,1,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Feraligatr","Big Jaw","Water",
+161,161,0.8,6,0,"sentret",2,3,8,3,4,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body","grassland","Sentret","Scout","Normal",
+162,162,1.8,32.5,0,"furret",2,3,8,3,4,0,0,0,2,2,0,1,"Brown","Pokémon with a quadruped body","grassland","Furret","Long Body","Normal",
+163,163,0.7,21.2,0,"hoothoot",2,3,9,2,4,0,0,0,1,2,1,0,"Brown","Pokémon with a single pair of wings","forest","Hoothoot","Owl","Normal","Flying"
+164,164,1.6,40.8,0,"noctowl",2,3,9,2,4,0,0,0,2,2,0,1,"Brown","Pokémon with a single pair of wings","forest","Noctowl","Owl","Normal","Flying"
+165,165,1,10.8,0,"ledyba",2,8,9,2,4,0,1,0,1,2,1,0,"Red","Pokémon with a single pair of wings","forest","Ledyba","Five Star","Bug","Flying"
+166,166,1.4,35.6,0,"ledian",2,8,9,2,4,0,1,0,2,2,0,1,"Red","Pokémon with a single pair of wings","forest","Ledian","Five Star","Bug","Flying"
+167,167,0.5,8.5,0,"spinarak",2,5,14,2,4,0,0,0,1,2,1,0,"Green","Pokémon with an insectoid body","forest","Spinarak","String Spit","Bug","Poison"
+168,168,1.1,33.5,0,"ariados",2,8,14,2,4,0,0,0,2,2,0,1,"Red","Pokémon with an insectoid body","forest","Ariados","Long Leg","Bug","Poison"
+169,169,1.8,75,0,"crobat",2,7,13,1,4,0,0,0,3,3,0,1,"Purple","Pokémon with two or more pairs of wings","cave","Crobat","Bat","Poison","Flying"
+170,170,0.5,12,0,"chinchou",2,2,3,7,4,0,0,0,1,2,1,0,"Blue","Pokémon with fins","sea","Chinchou","Angler","Water","Electric"
+171,171,1.2,22.5,0,"lanturn",2,2,3,7,4,0,0,0,2,2,0,1,"Blue","Pokémon with fins","sea","Lanturn","Light","Water","Electric"
+172,172,0.3,2,0,"pichu",2,10,8,2,4,1,0,0,1,3,1,0,"Yellow","Pokémon with a quadruped body","forest","Pichu","Tiny Mouse","Electric",
+173,173,0.3,3,0,"cleffa",2,6,6,4,6,1,0,0,1,3,1,0,"Pink","Pokémon with a bipedal, tailed form","mountain","Cleffa","Star Shape","Fairy",
+174,174,0.3,1,0,"igglybuff",2,6,12,3,6,1,0,0,1,3,1,0,"Pink","Pokémon with a bipedal, tailless form","grassland","Igglybuff","Balloon","Normal","Fairy"
+175,175,0.3,1.5,0,"togepi",2,9,12,2,1,1,0,0,1,3,1,0,"White","Pokémon with a bipedal, tailless form","forest","Togepi","Spike Ball","Fairy",
+176,176,0.6,3.2,0,"togetic",2,9,12,2,1,0,0,0,2,3,1,1,"White","Pokémon with a bipedal, tailless form","forest","Togetic","Happiness","Fairy","Flying"
+177,177,0.2,2,0,"natu",2,5,9,2,4,0,0,0,1,2,1,0,"Green","Pokémon with a single pair of wings","forest","Natu","Tiny Bird","Psychic","Flying"
+178,178,1.5,15,0,"xatu",2,5,9,2,4,0,1,0,2,2,0,1,"Green","Pokémon with a single pair of wings","forest","Xatu","Mystic","Psychic","Flying"
+179,179,0.6,7.8,0,"mareep",2,9,8,3,4,0,0,0,1,3,1,0,"White","Pokémon with a quadruped body","grassland","Mareep","Wool","Electric",
+180,180,0.8,13.3,0,"flaaffy",2,6,6,3,4,0,0,0,2,3,1,1,"Pink","Pokémon with a bipedal, tailed form","grassland","Flaaffy","Wool","Electric",
+181,181,1.4,61.5,1,"ampharos",2,10,6,3,4,0,0,1,3,3,0,1,"Yellow","Pokémon with a bipedal, tailed form","grassland","Ampharos","Light","Electric",
+182,182,0.4,5.8,0,"bellossom",2,5,12,3,4,0,0,0,3,3,0,1,"Green","Pokémon with a bipedal, tailless form","grassland","Bellossom","Flower","Grass",
+183,183,0.4,8.5,0,"marill",2,2,6,9,4,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Marill","Aqua Mouse","Water","Fairy"
+184,184,0.8,28.5,0,"azumarill",2,2,6,9,4,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Azumarill","Aqua Rabbit","Water","Fairy"
+185,185,1.2,38,0,"sudowoodo",2,3,12,2,4,0,1,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailless form","forest","Sudowoodo","Imitation","Rock",
+186,186,1.1,33.9,0,"politoed",2,5,12,9,4,0,1,0,3,3,0,1,"Green","Pokémon with a bipedal, tailless form","water's edge","Politoed","Frog","Water",
+187,187,0.4,0.5,0,"hoppip",2,6,6,3,4,0,0,0,1,3,1,0,"Pink","Pokémon with a bipedal, tailed form","grassland","Hoppip","Cottonweed","Grass","Flying"
+188,188,0.6,1,0,"skiploom",2,5,6,3,4,0,0,0,2,3,1,1,"Green","Pokémon with a bipedal, tailed form","grassland","Skiploom","Cottonweed","Grass","Flying"
+189,189,0.8,3,0,"jumpluff",2,2,6,3,4,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","grassland","Jumpluff","Cottonweed","Grass","Flying"
+190,190,0.8,11.5,0,"aipom",2,7,6,2,4,0,1,0,1,2,1,0,"Purple","Pokémon with a bipedal, tailed form","forest","Aipom","Long Tail","Normal",
+191,191,0.3,1.8,0,"sunkern",2,10,1,3,4,0,0,0,1,2,1,0,"Yellow","Pokémon consisting of only a head","grassland","Sunkern","Seed","Grass",
+192,192,0.8,8.5,0,"sunflora",2,10,12,3,4,0,0,0,2,2,0,1,"Yellow","Pokémon with a bipedal, tailless form","grassland","Sunflora","Sun","Grass",
+193,193,1.2,38,0,"yanma",2,8,13,2,4,0,0,0,1,2,1,0,"Red","Pokémon with two or more pairs of wings","forest","Yanma","Clear Wing","Bug","Flying"
+194,194,0.4,8.5,0,"wooper",2,2,7,9,4,0,1,0,1,2,1,0,"Blue","Pokémon consisting of a head and legs","water's edge","Wooper","Water Fish","Water","Ground"
+195,195,1.4,75,0,"quagsire",2,2,6,9,4,0,1,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Quagsire","Water Fish","Water","Ground"
+196,196,0.9,26.5,0,"espeon",2,7,8,8,1,0,0,0,2,2,0,1,"Purple","Pokémon with a quadruped body","urban","Espeon","Sun","Psychic",
+197,197,1,27,0,"umbreon",2,1,8,8,1,0,0,0,2,2,0,1,"Black","Pokémon with a quadruped body","urban","Umbreon","Moonlight","Dark",
+198,198,0.5,2.1,0,"murkrow",2,1,9,2,4,0,1,0,1,2,1,0,"Black","Pokémon with a single pair of wings","forest","Murkrow","Darkness","Dark","Flying"
+199,199,2,79.5,0,"slowking",2,6,6,9,4,0,0,0,2,2,0,1,"Pink","Pokémon with a bipedal, tailed form","water's edge","Slowking","Royal","Water","Psychic"
+200,200,0.7,1,0,"misdreavus",2,4,1,1,4,0,0,0,1,2,1,0,"Gray","Pokémon consisting of only a head","cave","Misdreavus","Screech","Ghost",
+201,201,0.5,5,0,"unown",2,1,1,5,-1,0,0,0,1,1,0,0,"Black","Pokémon consisting of only a head","rare","Unown","Symbol","Psychic",
+202,202,1.3,28.5,0,"wobbuffet",2,2,5,1,4,0,1,0,2,2,0,1,"Blue","Pokémon consisting of a head and a base","cave","Wobbuffet","Patient","Psychic",
+203,203,1.5,41.5,0,"girafarig",2,10,8,3,4,0,1,0,1,1,0,0,"Yellow","Pokémon with a quadruped body","grassland","Girafarig","Long Neck","Normal","Psychic"
+204,204,0.6,7.2,0,"pineco",2,4,1,2,4,0,0,0,1,2,1,0,"Gray","Pokémon consisting of only a head","forest","Pineco","Bagworm","Bug",
+205,205,1.2,125.8,0,"forretress",2,7,1,2,4,0,0,0,2,2,0,1,"Purple","Pokémon consisting of only a head","forest","Forretress","Bagworm","Bug","Steel"
+206,206,1.5,14,0,"dunsparce",2,10,2,1,4,0,0,0,1,1,0,0,"Yellow","Pokémon with serpentine bodies","cave","Dunsparce","Land Snake","Normal",
+207,207,1.1,64.8,0,"gligar",2,7,9,4,4,0,1,0,1,2,1,0,"Purple","Pokémon with a single pair of wings","mountain","Gligar","Fly Scorpion","Ground","Flying"
+208,208,9.2,400,1,"steelix",2,4,2,1,4,0,1,1,2,2,0,1,"Gray","Pokémon with serpentine bodies","cave","Steelix","Iron Snake","Steel","Ground"
+209,209,0.6,7.8,0,"snubbull",2,6,12,8,6,0,0,0,1,2,1,0,"Pink","Pokémon with a bipedal, tailless form","urban","Snubbull","Fairy","Fairy",
+210,210,1.4,48.7,0,"granbull",2,7,6,8,6,0,0,0,2,2,0,1,"Purple","Pokémon with a bipedal, tailed form","urban","Granbull","Fairy","Fairy",
+211,211,0.5,3.9,0,"qwilfish",2,4,3,7,4,0,0,0,1,1,0,0,"Gray","Pokémon with fins","sea","Qwilfish","Balloon","Water","Poison"
+212,212,1.8,118,1,"scizor",2,8,13,3,4,0,1,1,2,2,0,1,"Red","Pokémon with two or more pairs of wings","grassland","Scizor","Pincer","Bug","Steel"
+213,213,0.6,20.5,0,"shuckle",2,10,14,4,4,0,0,0,1,1,0,0,"Yellow","Pokémon with an insectoid body","mountain","Shuckle","Mold","Bug","Rock"
+214,214,1.5,54,1,"heracross",2,2,12,2,4,0,1,1,1,1,0,0,"Blue","Pokémon with a bipedal, tailless form","forest","Heracross","Single Horn","Bug","Fighting"
+215,215,0.9,28,0,"sneasel",2,1,6,2,4,0,1,0,1,2,1,0,"Black","Pokémon with a bipedal, tailed form","forest","Sneasel","Sharp Claw","Dark","Ice"
+216,216,0.6,8.8,0,"teddiursa",2,3,6,4,4,0,0,0,1,2,1,0,"Brown","Pokémon with a bipedal, tailed form","mountain","Teddiursa","Little Bear","Normal",
+217,217,1.8,125.8,0,"ursaring",2,3,6,4,4,0,1,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form","mountain","Ursaring","Hibernator","Normal",
+218,218,0.7,35,0,"slugma",2,8,2,4,4,0,0,0,1,2,1,0,"Red","Pokémon with serpentine bodies","mountain","Slugma","Lava","Fire",
+219,219,0.8,55,0,"magcargo",2,8,2,4,4,0,0,0,2,2,0,1,"Red","Pokémon with serpentine bodies","mountain","Magcargo","Lava","Fire","Rock"
+220,220,0.4,6.5,0,"swinub",2,3,8,1,4,0,0,0,1,3,1,0,"Brown","Pokémon with a quadruped body","cave","Swinub","Pig","Ice","Ground"
+221,221,1.1,55.8,0,"piloswine",2,3,8,1,4,0,1,0,2,3,1,1,"Brown","Pokémon with a quadruped body","cave","Piloswine","Swine","Ice","Ground"
+222,222,0.6,5,0,"corsola",2,6,14,7,6,0,0,0,1,1,0,0,"Pink","Pokémon with an insectoid body","sea","Corsola","Coral","Water","Rock"
+223,223,0.6,12,0,"remoraid",2,4,3,7,4,0,0,0,1,2,1,0,"Gray","Pokémon with fins","sea","Remoraid","Jet","Water",
+224,224,0.9,28.5,0,"octillery",2,8,10,7,4,0,1,0,2,2,0,1,"Red","Pokémon with tentacles or a multiped body","sea","Octillery","Jet","Water",
+225,225,0.9,16,0,"delibird",2,8,9,4,4,0,0,0,1,1,0,0,"Red","Pokémon with a single pair of wings","mountain","Delibird","Delivery","Ice","Flying"
+226,226,2.1,220,0,"mantine",2,7,9,7,4,0,0,0,2,2,0,1,"Purple","Pokémon with a single pair of wings","sea","Mantine","Kite","Water","Flying"
+227,227,1.7,50.5,0,"skarmory",2,4,9,6,4,0,0,0,1,1,0,0,"Gray","Pokémon with a single pair of wings","rough terrain","Skarmory","Armor Bird","Steel","Flying"
+228,228,0.6,10.8,0,"houndour",2,1,8,6,4,0,0,0,1,2,1,0,"Black","Pokémon with a quadruped body","rough terrain","Houndour","Dark","Dark","Fire"
+229,229,1.4,35,1,"houndoom",2,1,8,6,4,0,1,1,2,2,0,1,"Black","Pokémon with a quadruped body","rough terrain","Houndoom","Dark","Dark","Fire"
+230,230,1.8,152,0,"kingdra",2,2,5,7,4,0,0,0,3,3,0,1,"Blue","Pokémon consisting of a head and a base","sea","Kingdra","Dragon","Water","Dragon"
+231,231,0.5,33.5,0,"phanpy",2,2,8,6,4,0,0,0,1,2,1,0,"Blue","Pokémon with a quadruped body","rough terrain","Phanpy","Long Nose","Ground",
+232,232,1.1,120,0,"donphan",2,4,8,6,4,0,1,0,2,2,0,1,"Gray","Pokémon with a quadruped body","rough terrain","Donphan","Armor","Ground",
+233,233,0.6,32.5,0,"porygon2",2,8,7,8,-1,0,0,0,2,3,1,1,"Red","Pokémon consisting of a head and legs","urban","Porygon2","Virtual","Normal",
+234,234,1.4,71.2,0,"stantler",2,3,8,2,4,0,0,0,1,1,0,0,"Brown","Pokémon with a quadruped body","forest","Stantler","Big Horn","Normal",
+235,235,1.2,58,0,"smeargle",2,9,6,8,4,0,0,0,1,1,0,0,"White","Pokémon with a bipedal, tailed form","urban","Smeargle","Painter","Normal",
+236,236,0.7,21,0,"tyrogue",2,7,12,8,0,1,0,0,1,2,1,0,"Purple","Pokémon with a bipedal, tailless form","urban","Tyrogue","Scuffle","Fighting",
+237,237,1.4,48,0,"hitmontop",2,3,6,8,0,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form","urban","Hitmontop","Handstand","Fighting",
+238,238,0.4,6,0,"smoochum",2,6,12,8,8,1,0,0,1,2,1,0,"Pink","Pokémon with a bipedal, tailless form","urban","Smoochum","Kiss","Ice","Psychic"
+239,239,0.6,23.5,0,"elekid",2,10,12,3,2,1,0,0,1,3,1,0,"Yellow","Pokémon with a bipedal, tailless form","grassland","Elekid","Electric","Electric",
+240,240,0.7,21.4,0,"magby",2,8,6,4,2,1,0,0,1,3,1,0,"Red","Pokémon with a bipedal, tailed form","mountain","Magby","Live Coal","Fire",
+241,241,1.2,75.5,0,"miltank",2,6,6,3,8,0,0,0,1,1,0,0,"Pink","Pokémon with a bipedal, tailed form","grassland","Miltank","Milk Cow","Normal",
+242,242,1.5,46.8,0,"blissey",2,6,12,8,8,0,0,0,3,3,0,1,"Pink","Pokémon with a bipedal, tailless form","urban","Blissey","Happiness","Normal",
+243,243,1.9,178,0,"raikou",2,10,8,3,-1,0,0,0,1,1,0,0,"Yellow","Pokémon with a quadruped body","grassland","Raikou","Thunder","Electric",
+244,244,2.1,198,0,"entei",2,3,8,3,-1,0,0,0,1,1,0,0,"Brown","Pokémon with a quadruped body","grassland","Entei","Volcano","Fire",
+245,245,2,187,0,"suicune",2,2,8,3,-1,0,0,0,1,1,0,0,"Blue","Pokémon with a quadruped body","grassland","Suicune","Aurora","Water",
+246,246,0.6,72,0,"larvitar",2,5,6,4,4,0,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailed form","mountain","Larvitar","Rock Skin","Rock","Ground"
+247,247,1.2,152,0,"pupitar",2,4,2,4,4,0,0,0,2,3,1,1,"Gray","Pokémon with serpentine bodies","mountain","Pupitar","Hard Shell","Rock","Ground"
+248,248,2,202,1,"tyranitar",2,5,6,4,4,0,0,1,3,3,0,1,"Green","Pokémon with a bipedal, tailed form","mountain","Tyranitar","Armor","Rock","Dark"
+249,249,5.2,216,0,"lugia",2,9,9,5,-1,0,0,0,1,1,0,0,"White","Pokémon with a single pair of wings","rare","Lugia","Diving","Psychic","Flying"
+250,250,3.8,199,0,"ho-oh",2,8,9,5,-1,0,0,0,1,1,0,0,"Red","Pokémon with a single pair of wings","rare","Ho-Oh","Rainbow","Fire","Flying"
+251,251,0.6,5,0,"celebi",2,5,12,2,-1,0,0,0,1,1,0,0,"Green","Pokémon with a bipedal, tailless form","forest","Celebi","Time Travel","Psychic","Grass"
+252,252,0.5,5,0,"treecko",3,5,6,2,1,0,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailed form","forest","Treecko","Wood Gecko","Grass",
+253,253,0.9,21.6,0,"grovyle",3,5,6,2,1,0,0,0,2,3,1,1,"Green","Pokémon with a bipedal, tailed form","forest","Grovyle","Wood Gecko","Grass",
+254,254,1.7,52.2,1,"sceptile",3,5,6,2,1,0,0,1,3,3,0,1,"Green","Pokémon with a bipedal, tailed form","forest","Sceptile","Forest","Grass",
+255,255,0.4,2.5,0,"torchic",3,8,7,3,1,0,1,0,1,3,1,0,"Red","Pokémon consisting of a head and legs","grassland","Torchic","Chick","Fire",
+256,256,0.9,19.5,0,"combusken",3,8,6,3,1,0,1,0,2,3,1,1,"Red","Pokémon with a bipedal, tailed form","grassland","Combusken","Young Fowl","Fire","Fighting"
+257,257,1.9,52,1,"blaziken",3,8,6,3,1,0,1,1,3,3,0,1,"Red","Pokémon with a bipedal, tailed form","grassland","Blaziken","Blaze","Fire","Fighting"
+258,258,0.4,7.6,0,"mudkip",3,2,8,9,1,0,0,0,1,3,1,0,"Blue","Pokémon with a quadruped body","water's edge","Mudkip","Mud Fish","Water",
+259,259,0.7,28,0,"marshtomp",3,2,6,9,1,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Marshtomp","Mud Fish","Water","Ground"
+260,260,1.5,81.9,1,"swampert",3,2,6,9,1,0,0,1,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","water's edge","Swampert","Mud Fish","Water","Ground"
+261,261,0.5,13.6,0,"poochyena",3,4,8,3,4,0,0,0,1,2,1,0,"Gray","Pokémon with a quadruped body","grassland","Poochyena","Bite","Dark",
+262,262,1,37,0,"mightyena",3,4,8,3,4,0,0,0,2,2,0,1,"Gray","Pokémon with a quadruped body","grassland","Mightyena","Bite","Dark",
+263,263,0.4,17.5,0,"zigzagoon",3,3,8,3,4,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body","grassland","Zigzagoon","Tiny Raccoon","Normal",
+264,264,0.5,32.5,0,"linoone",3,9,8,3,4,0,0,0,2,2,0,1,"White","Pokémon with a quadruped body","grassland","Linoone","Rushing","Normal",
+265,265,0.3,3.6,0,"wurmple",3,8,2,2,4,0,0,0,1,3,1,0,"Red","Pokémon with serpentine bodies","forest","Wurmple","Worm","Bug",
+266,266,0.6,10,0,"silcoon",3,9,1,2,4,0,0,0,2,3,1,1,"White","Pokémon consisting of only a head","forest","Silcoon","Cocoon","Bug",
+267,267,1,28.4,0,"beautifly",3,10,13,2,4,0,1,0,3,3,0,1,"Yellow","Pokémon with two or more pairs of wings","forest","Beautifly","Butterfly","Bug","Flying"
+268,268,0.7,11.5,0,"cascoon",3,7,1,2,4,0,0,0,2,3,1,1,"Purple","Pokémon consisting of only a head","forest","Cascoon","Cocoon","Bug",
+269,269,1.2,31.6,0,"dustox",3,5,13,2,4,0,1,0,3,3,0,1,"Green","Pokémon with two or more pairs of wings","forest","Dustox","Poison Moth","Bug","Poison"
+270,270,0.5,2.6,0,"lotad",3,5,14,9,4,0,0,0,1,3,1,0,"Green","Pokémon with an insectoid body","water's edge","Lotad","Water Weed","Water","Grass"
+271,271,1.2,32.5,0,"lombre",3,5,12,9,4,0,0,0,2,3,1,1,"Green","Pokémon with a bipedal, tailless form","water's edge","Lombre","Jolly","Water","Grass"
+272,272,1.5,55,0,"ludicolo",3,5,12,9,4,0,1,0,3,3,0,1,"Green","Pokémon with a bipedal, tailless form","water's edge","Ludicolo","Carefree","Water","Grass"
+273,273,0.5,4,0,"seedot",3,3,7,2,4,0,0,0,1,3,1,0,"Brown","Pokémon consisting of a head and legs","forest","Seedot","Acorn","Grass",
+274,274,1,28,0,"nuzleaf",3,3,12,2,4,0,1,0,2,3,1,1,"Brown","Pokémon with a bipedal, tailless form","forest","Nuzleaf","Wily","Grass","Dark"
+275,275,1.3,59.6,0,"shiftry",3,3,12,2,4,0,1,0,3,3,0,1,"Brown","Pokémon with a bipedal, tailless form","forest","Shiftry","Wicked","Grass","Dark"
+276,276,0.3,2.3,0,"taillow",3,2,9,3,4,0,0,0,1,2,1,0,"Blue","Pokémon with a single pair of wings","grassland","Taillow","Tiny Swallow","Normal","Flying"
+277,277,0.7,19.8,0,"swellow",3,2,9,3,4,0,0,0,2,2,0,1,"Blue","Pokémon with a single pair of wings","grassland","Swellow","Swallow","Normal","Flying"
+278,278,0.6,9.5,0,"wingull",3,9,9,7,4,0,0,0,1,2,1,0,"White","Pokémon with a single pair of wings","sea","Wingull","Seagull","Water","Flying"
+279,279,1.2,28,0,"pelipper",3,10,9,7,4,0,0,0,2,2,0,1,"Yellow","Pokémon with a single pair of wings","sea","Pelipper","Water Bird","Water","Flying"
+280,280,0.4,6.6,0,"ralts",3,9,12,8,4,0,0,0,1,3,1,0,"White","Pokémon with a bipedal, tailless form","urban","Ralts","Feeling","Psychic","Fairy"
+281,281,0.8,20.2,0,"kirlia",3,9,12,8,4,0,0,0,2,3,1,1,"White","Pokémon with a bipedal, tailless form","urban","Kirlia","Emotion","Psychic","Fairy"
+282,282,1.6,48.4,1,"gardevoir",3,9,12,8,4,0,0,1,3,3,0,1,"White","Pokémon with a bipedal, tailless form","urban","Gardevoir","Embrace","Psychic","Fairy"
+283,283,0.5,1.7,0,"surskit",3,2,14,9,4,0,0,0,1,2,1,0,"Blue","Pokémon with an insectoid body","water's edge","Surskit","Pond Skater","Bug","Water"
+284,284,0.8,3.6,0,"masquerain",3,2,13,9,4,0,0,0,2,2,0,1,"Blue","Pokémon with two or more pairs of wings","water's edge","Masquerain","Eyeball","Bug","Flying"
+285,285,0.4,4.5,0,"shroomish",3,3,7,2,4,0,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and legs","forest","Shroomish","Mushroom","Grass",
+286,286,1.2,39.2,0,"breloom",3,5,6,2,4,0,0,0,2,2,0,1,"Green","Pokémon with a bipedal, tailed form","forest","Breloom","Mushroom","Grass","Fighting"
+287,287,0.8,24,0,"slakoth",3,3,8,2,4,0,0,0,1,3,1,0,"Brown","Pokémon with a quadruped body","forest","Slakoth","Slacker","Normal",
+288,288,1.4,46.5,0,"vigoroth",3,9,6,2,4,0,0,0,2,3,1,1,"White","Pokémon with a bipedal, tailed form","forest","Vigoroth","Wild Monkey","Normal",
+289,289,2,130.5,0,"slaking",3,3,12,2,4,0,0,0,3,3,0,1,"Brown","Pokémon with a bipedal, tailless form","forest","Slaking","Lazy","Normal",
+290,290,0.5,5.5,0,"nincada",3,4,14,2,4,0,0,0,1,2,1,0,"Gray","Pokémon with an insectoid body","forest","Nincada","Trainee","Bug","Ground"
+291,291,0.8,12,0,"ninjask",3,10,13,2,4,0,0,0,2,2,0,1,"Yellow","Pokémon with two or more pairs of wings","forest","Ninjask","Ninja","Bug","Flying"
+292,292,0.8,1.2,0,"shedinja",3,3,5,2,-1,0,0,0,2,2,0,1,"Brown","Pokémon consisting of a head and a base","forest","Shedinja","Shed","Bug","Ghost"
+293,293,0.6,16.3,0,"whismur",3,6,6,1,4,0,0,0,1,3,1,0,"Pink","Pokémon with a bipedal, tailed form","cave","Whismur","Whisper","Normal",
+294,294,1,40.5,0,"loudred",3,2,6,1,4,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form","cave","Loudred","Big Voice","Normal",
+295,295,1.5,84,0,"exploud",3,2,6,1,4,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form","cave","Exploud","Loud Noise","Normal",
+296,296,1,86.4,0,"makuhita",3,10,12,4,2,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailless form","mountain","Makuhita","Guts","Fighting",
+297,297,2.3,253.8,0,"hariyama",3,3,12,4,2,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailless form","mountain","Hariyama","Arm Thrust","Fighting",
+298,298,0.2,2,0,"azurill",3,2,7,9,6,1,0,0,1,3,1,0,"Blue","Pokémon consisting of a head and legs","water's edge","Azurill","Polka Dot","Normal","Fairy"
+299,299,1,97,0,"nosepass",3,4,12,1,4,0,0,0,1,2,1,0,"Gray","Pokémon with a bipedal, tailless form","cave","Nosepass","Compass","Rock",
+300,300,0.6,11,0,"skitty",3,6,8,2,6,0,0,0,1,2,1,0,"Pink","Pokémon with a quadruped body","forest","Skitty","Kitten","Normal",
+301,301,1.1,32.6,0,"delcatty",3,7,8,2,6,0,0,0,2,2,0,1,"Purple","Pokémon with a quadruped body","forest","Delcatty","Prim","Normal",
+302,302,0.5,11,1,"sableye",3,7,12,1,4,0,0,1,1,1,0,0,"Purple","Pokémon with a bipedal, tailless form","cave","Sableye","Darkness","Dark","Ghost"
+303,303,0.6,11.5,1,"mawile",3,1,12,1,4,0,0,1,1,1,0,0,"Black","Pokémon with a bipedal, tailless form","cave","Mawile","Deceiver","Steel","Fairy"
+304,304,0.4,60,0,"aron",3,4,8,4,4,0,0,0,1,3,1,0,"Gray","Pokémon with a quadruped body","mountain","Aron","Iron Armor","Steel","Rock"
+305,305,0.9,120,0,"lairon",3,4,8,4,4,0,0,0,2,3,1,1,"Gray","Pokémon with a quadruped body","mountain","Lairon","Iron Armor","Steel","Rock"
+306,306,2.1,360,1,"aggron",3,4,6,4,4,0,0,1,3,3,0,1,"Gray","Pokémon with a bipedal, tailed form","mountain","Aggron","Iron Armor","Steel","Rock"
+307,307,0.6,11.2,0,"meditite",3,2,12,4,4,0,1,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailless form","mountain","Meditite","Meditate","Fighting","Psychic"
+308,308,1.3,31.5,1,"medicham",3,8,12,4,4,0,1,1,2,2,0,1,"Red","Pokémon with a bipedal, tailless form","mountain","Medicham","Meditate","Fighting","Psychic"
+309,309,0.6,15.2,0,"electrike",3,5,8,3,4,0,0,0,1,2,1,0,"Green","Pokémon with a quadruped body","grassland","Electrike","Lightning","Electric",
+310,310,1.5,40.2,1,"manectric",3,10,8,3,4,0,0,1,2,2,0,1,"Yellow","Pokémon with a quadruped body","grassland","Manectric","Discharge","Electric",
+311,311,0.4,4.2,0,"plusle",3,10,6,3,4,0,0,0,1,1,0,0,"Yellow","Pokémon with a bipedal, tailed form","grassland","Plusle","Cheering","Electric",
+312,312,0.4,4.2,0,"minun",3,10,6,3,4,0,0,0,1,1,0,0,"Yellow","Pokémon with a bipedal, tailed form","grassland","Minun","Cheering","Electric",
+313,313,0.7,17.7,0,"volbeat",3,4,6,2,0,0,0,0,1,1,0,0,"Gray","Pokémon with a bipedal, tailed form","forest","Volbeat","Firefly","Bug",
+314,314,0.6,17.7,0,"illumise",3,7,12,2,8,0,0,0,1,1,0,0,"Purple","Pokémon with a bipedal, tailless form","forest","Illumise","Firefly","Bug",
+315,315,0.3,2,0,"roselia",3,5,12,3,4,0,1,0,2,3,1,1,"Green","Pokémon with a bipedal, tailless form","grassland","Roselia","Thorn","Grass","Poison"
+316,316,0.4,10.3,0,"gulpin",3,5,4,3,4,0,1,0,1,2,1,0,"Green","Pokémon consisting of a head and arms","grassland","Gulpin","Stomach","Poison",
+317,317,1.7,80,0,"swalot",3,7,4,3,4,0,1,0,2,2,0,1,"Purple","Pokémon consisting of a head and arms","grassland","Swalot","Poison Bag","Poison",
+318,318,0.8,20.8,0,"carvanha",3,8,3,7,4,0,0,0,1,2,1,0,"Red","Pokémon with fins","sea","Carvanha","Savage","Water","Dark"
+319,319,1.8,88.8,1,"sharpedo",3,2,3,7,4,0,0,1,2,2,0,1,"Blue","Pokémon with fins","sea","Sharpedo","Brutal","Water","Dark"
+320,320,2,130,0,"wailmer",3,2,3,7,4,0,0,0,1,2,1,0,"Blue","Pokémon with fins","sea","Wailmer","Ball Whale","Water",
+321,321,14.5,398,0,"wailord",3,2,3,7,4,0,0,0,2,2,0,1,"Blue","Pokémon with fins","sea","Wailord","Float Whale","Water",
+322,322,0.7,24,0,"numel",3,10,8,4,4,0,1,0,1,2,1,0,"Yellow","Pokémon with a quadruped body","mountain","Numel","Numb","Fire","Ground"
+323,323,1.9,220,1,"camerupt",3,8,8,4,4,0,1,1,2,2,0,1,"Red","Pokémon with a quadruped body","mountain","Camerupt","Eruption","Fire","Ground"
+324,324,0.5,80.4,0,"torkoal",3,3,8,4,4,0,0,0,1,1,0,0,"Brown","Pokémon with a quadruped body","mountain","Torkoal","Coal","Fire",
+325,325,0.7,30.6,0,"spoink",3,1,4,4,4,0,0,0,1,2,1,0,"Black","Pokémon consisting of a head and arms","mountain","Spoink","Bounce","Psychic",
+326,326,0.9,71.5,0,"grumpig",3,7,6,4,4,0,0,0,2,2,0,1,"Purple","Pokémon with a bipedal, tailed form","mountain","Grumpig","Manipulate","Psychic",
+327,327,1.1,5,0,"spinda",3,3,6,4,4,0,0,0,1,1,0,0,"Brown","Pokémon with a bipedal, tailed form","mountain","Spinda","Spot Panda","Normal",
+328,328,0.7,15,0,"trapinch",3,3,14,6,4,0,0,0,1,3,1,0,"Brown","Pokémon with an insectoid body","rough terrain","Trapinch","Ant Pit","Ground",
+329,329,1.1,15.3,0,"vibrava",3,5,13,6,4,0,0,0,2,3,1,1,"Green","Pokémon with two or more pairs of wings","rough terrain","Vibrava","Vibration","Ground","Dragon"
+330,330,2,82,0,"flygon",3,5,9,6,4,0,0,0,3,3,0,1,"Green","Pokémon with a single pair of wings","rough terrain","Flygon","Mystic","Ground","Dragon"
+331,331,0.4,51.3,0,"cacnea",3,5,12,6,4,0,0,0,1,2,1,0,"Green","Pokémon with a bipedal, tailless form","rough terrain","Cacnea","Cactus","Grass",
+332,332,1.3,77.4,0,"cacturne",3,5,12,6,4,0,1,0,2,2,0,1,"Green","Pokémon with a bipedal, tailless form","rough terrain","Cacturne","Scarecrow","Grass","Dark"
+333,333,0.4,1.2,0,"swablu",3,2,9,2,4,0,0,0,1,2,1,0,"Blue","Pokémon with a single pair of wings","forest","Swablu","Cotton Bird","Normal","Flying"
+334,334,1.1,20.6,1,"altaria",3,2,9,2,4,0,0,1,2,2,0,1,"Blue","Pokémon with a single pair of wings","forest","Altaria","Humming","Dragon","Flying"
+335,335,1.3,40.3,0,"zangoose",3,9,6,3,4,0,0,0,1,1,0,0,"White","Pokémon with a bipedal, tailed form","grassland","Zangoose","Cat Ferret","Normal",
+336,336,2.7,52.5,0,"seviper",3,1,2,3,4,0,0,0,1,1,0,0,"Black","Pokémon with serpentine bodies","grassland","Seviper","Fang Snake","Poison",
+337,337,1,168,0,"lunatone",3,10,1,1,-1,0,0,0,1,1,0,0,"Yellow","Pokémon consisting of only a head","cave","Lunatone","Meteorite","Rock","Psychic"
+338,338,1.2,154,0,"solrock",3,8,1,1,-1,0,0,0,1,1,0,0,"Red","Pokémon consisting of only a head","cave","Solrock","Meteorite","Rock","Psychic"
+339,339,0.4,1.9,0,"barboach",3,4,3,9,4,0,0,0,1,2,1,0,"Gray","Pokémon with fins","water's edge","Barboach","Whiskers","Water","Ground"
+340,340,0.9,23.6,0,"whiscash",3,2,3,9,4,0,0,0,2,2,0,1,"Blue","Pokémon with fins","water's edge","Whiscash","Whiskers","Water","Ground"
+341,341,0.6,11.5,0,"corphish",3,8,14,9,4,0,0,0,1,2,1,0,"Red","Pokémon with an insectoid body","water's edge","Corphish","Ruffian","Water",
+342,342,1.1,32.8,0,"crawdaunt",3,8,14,9,4,0,0,0,2,2,0,1,"Red","Pokémon with an insectoid body","water's edge","Crawdaunt","Rogue","Water","Dark"
+343,343,0.5,21.5,0,"baltoy",3,3,4,6,-1,0,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and arms","rough terrain","Baltoy","Clay Doll","Ground","Psychic"
+344,344,1.5,108,0,"claydol",3,1,4,6,-1,0,0,0,2,2,0,1,"Black","Pokémon consisting of a head and arms","rough terrain","Claydol","Clay Doll","Ground","Psychic"
+345,345,1,23.8,0,"lileep",3,7,5,7,1,0,0,0,1,2,1,0,"Purple","Pokémon consisting of a head and a base","sea","Lileep","Sea Lily","Rock","Grass"
+346,346,1.5,60.4,0,"cradily",3,5,5,7,1,0,0,0,2,2,0,1,"Green","Pokémon consisting of a head and a base","sea","Cradily","Barnacle","Rock","Grass"
+347,347,0.7,12.5,0,"anorith",3,4,14,9,1,0,0,0,1,2,1,0,"Gray","Pokémon with an insectoid body","water's edge","Anorith","Old Shrimp","Rock","Bug"
+348,348,1.5,68.2,0,"armaldo",3,4,6,9,1,0,0,0,2,2,0,1,"Gray","Pokémon with a bipedal, tailed form","water's edge","Armaldo","Plate","Rock","Bug"
+349,349,0.6,7.4,0,"feebas",3,3,3,9,4,0,0,0,1,2,1,0,"Brown","Pokémon with fins","water's edge","Feebas","Fish","Water",
+350,350,6.2,162,0,"milotic",3,6,2,9,4,0,1,0,2,2,0,1,"Pink","Pokémon with serpentine bodies","water's edge","Milotic","Tender","Water",
+351,351,0.3,0.8,0,"castform",3,9,1,3,4,0,0,1,1,1,0,0,"White","Pokémon consisting of only a head","grassland","Castform","Weather","Normal",
+352,352,1,22,0,"kecleon",3,5,6,2,4,0,0,0,1,1,0,0,"Green","Pokémon with a bipedal, tailed form","forest","Kecleon","Color Swap","Normal",
+353,353,0.6,2.3,0,"shuppet",3,1,1,8,4,0,0,0,1,2,1,0,"Black","Pokémon consisting of only a head","urban","Shuppet","Puppet","Ghost",
+354,354,1.1,12.5,1,"banette",3,1,6,8,4,0,0,1,2,2,0,1,"Black","Pokémon with a bipedal, tailed form","urban","Banette","Marionette","Ghost",
+355,355,0.8,15,0,"duskull",3,1,4,2,4,0,0,0,1,3,1,0,"Black","Pokémon consisting of a head and arms","forest","Duskull","Requiem","Ghost",
+356,356,1.6,30.6,0,"dusclops",3,1,12,2,4,0,0,0,2,3,1,1,"Black","Pokémon with a bipedal, tailless form","forest","Dusclops","Beckon","Ghost",
+357,357,2,100,0,"tropius",3,5,8,2,4,0,0,0,1,1,0,0,"Green","Pokémon with a quadruped body","forest","Tropius","Fruit","Grass","Flying"
+358,358,0.6,1,0,"chimecho",3,2,4,3,4,0,0,0,2,2,0,1,"Blue","Pokémon consisting of a head and arms","grassland","Chimecho","Wind Chime","Psychic",
+359,359,1.2,47,1,"absol",3,9,8,4,4,0,0,1,1,1,0,0,"White","Pokémon with a quadruped body","mountain","Absol","Disaster","Dark",
+360,360,0.6,14,0,"wynaut",3,2,6,1,4,1,0,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailed form","cave","Wynaut","Bright","Psychic",
+361,361,0.7,16.8,0,"snorunt",3,4,12,1,4,0,0,0,1,2,1,0,"Gray","Pokémon with a bipedal, tailless form","cave","Snorunt","Snow Hat","Ice",
+362,362,1.5,256.5,1,"glalie",3,4,1,1,4,0,0,1,2,2,0,1,"Gray","Pokémon consisting of only a head","cave","Glalie","Face","Ice",
+363,363,0.8,39.5,0,"spheal",3,2,3,7,4,0,0,0,1,3,1,0,"Blue","Pokémon with fins","sea","Spheal","Clap","Ice","Water"
+364,364,1.1,87.6,0,"sealeo",3,2,3,7,4,0,0,0,2,3,1,1,"Blue","Pokémon with fins","sea","Sealeo","Ball Roll","Ice","Water"
+365,365,1.4,150.6,0,"walrein",3,2,8,7,4,0,0,0,3,3,0,1,"Blue","Pokémon with a quadruped body","sea","Walrein","Ice Break","Ice","Water"
+366,366,0.4,52.5,0,"clamperl",3,2,1,7,4,0,0,0,1,2,1,0,"Blue","Pokémon consisting of only a head","sea","Clamperl","Bivalve","Water",
+367,367,1.7,27,0,"huntail",3,2,2,7,4,0,0,0,2,2,0,1,"Blue","Pokémon with serpentine bodies","sea","Huntail","Deep Sea","Water",
+368,368,1.8,22.6,0,"gorebyss",3,6,2,7,4,0,0,0,2,2,0,1,"Pink","Pokémon with serpentine bodies","sea","Gorebyss","South Sea","Water",
+369,369,1,23.4,0,"relicanth",3,4,3,7,1,0,1,0,1,1,0,0,"Gray","Pokémon with fins","sea","Relicanth","Longevity","Water","Rock"
+370,370,0.6,8.7,0,"luvdisc",3,6,3,7,6,0,0,0,1,1,0,0,"Pink","Pokémon with fins","sea","Luvdisc","Rendezvous","Water",
+371,371,0.6,42.1,0,"bagon",3,2,12,6,4,0,0,0,1,3,1,0,"Blue","Pokémon with a bipedal, tailless form","rough terrain","Bagon","Rock Head","Dragon",
+372,372,1.1,110.5,0,"shelgon",3,9,8,6,4,0,0,0,2,3,1,1,"White","Pokémon with a quadruped body","rough terrain","Shelgon","Endurance","Dragon",
+373,373,1.5,102.6,1,"salamence",3,2,8,6,4,0,0,1,3,3,0,1,"Blue","Pokémon with a quadruped body","rough terrain","Salamence","Dragon","Dragon","Flying"
+374,374,0.6,95.2,0,"beldum",3,2,5,6,-1,0,0,0,1,3,1,0,"Blue","Pokémon consisting of a head and a base","rough terrain","Beldum","Iron Ball","Steel","Psychic"
+375,375,1.2,202.5,0,"metang",3,2,4,6,-1,0,0,0,2,3,1,1,"Blue","Pokémon consisting of a head and arms","rough terrain","Metang","Iron Claw","Steel","Psychic"
+376,376,1.6,550,1,"metagross",3,2,11,6,-1,0,0,1,3,3,0,1,"Blue","Pokémon consisting of multiple bodies","rough terrain","Metagross","Iron Leg","Steel","Psychic"
+377,377,1.7,230,0,"regirock",3,3,12,1,-1,0,0,0,1,1,0,0,"Brown","Pokémon with a bipedal, tailless form","cave","Regirock","Rock Peak","Rock",
+378,378,1.8,175,0,"regice",3,2,12,1,-1,0,0,0,1,1,0,0,"Blue","Pokémon with a bipedal, tailless form","cave","Regice","Iceberg","Ice",
+379,379,1.9,205,0,"registeel",3,4,12,1,-1,0,0,0,1,1,0,0,"Gray","Pokémon with a bipedal, tailless form","cave","Registeel","Iron","Steel",
+380,380,1.4,40,1,"latias",3,8,9,9,8,0,0,1,1,1,0,0,"Red","Pokémon with a single pair of wings","water's edge","Latias","Eon","Dragon","Psychic"
+381,381,2,60,1,"latios",3,2,9,9,0,0,0,1,1,1,0,0,"Blue","Pokémon with a single pair of wings","water's edge","Latios","Eon","Dragon","Psychic"
+382,382,4.5,352,0,"kyogre",3,2,3,7,-1,0,0,1,1,1,0,0,"Blue","Pokémon with fins","sea","Kyogre","Sea Basin","Water",
+383,383,3.5,950,0,"groudon",3,8,6,6,-1,0,0,1,1,1,0,0,"Red","Pokémon with a bipedal, tailed form","rough terrain","Groudon","Continent","Ground",
+384,384,7,206.5,1,"rayquaza",3,5,2,5,-1,0,0,1,1,1,0,0,"Green","Pokémon with serpentine bodies","rare","Rayquaza","Sky High","Dragon","Flying"
+385,385,0.3,1.1,0,"jirachi",3,10,12,4,-1,0,0,0,1,1,0,0,"Yellow","Pokémon with a bipedal, tailless form","mountain","Jirachi","Wish","Steel","Psychic"
+386,386,1.7,60.8,0,"deoxys",3,8,12,5,-1,0,0,1,1,1,0,0,"Red","Pokémon with a bipedal, tailless form","rare","Deoxys","DNA","Psychic",
+387,387,0.4,10.2,0,"turtwig",4,5,8,,1,0,0,0,1,3,1,0,"Green","Pokémon with a quadruped body",,"Turtwig","Tiny Leaf","Grass",
+388,388,1.1,97,0,"grotle",4,5,8,,1,0,0,0,2,3,1,1,"Green","Pokémon with a quadruped body",,"Grotle","Grove","Grass",
+389,389,2.2,310,0,"torterra",4,5,8,,1,0,0,0,3,3,0,1,"Green","Pokémon with a quadruped body",,"Torterra","Continent","Grass","Ground"
+390,390,0.5,6.2,0,"chimchar",4,3,6,,1,0,0,0,1,3,1,0,"Brown","Pokémon with a bipedal, tailed form",,"Chimchar","Chimp","Fire",
+391,391,0.9,22,0,"monferno",4,3,6,,1,0,0,0,2,3,1,1,"Brown","Pokémon with a bipedal, tailed form",,"Monferno","Playful","Fire","Fighting"
+392,392,1.2,55,0,"infernape",4,3,6,,1,0,0,0,3,3,0,1,"Brown","Pokémon with a bipedal, tailed form",,"Infernape","Flame","Fire","Fighting"
+393,393,0.4,5.2,0,"piplup",4,2,12,,1,0,0,0,1,3,1,0,"Blue","Pokémon with a bipedal, tailless form",,"Piplup","Penguin","Water",
+394,394,0.8,23,0,"prinplup",4,2,6,,1,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form",,"Prinplup","Penguin","Water",
+395,395,1.7,84.5,0,"empoleon",4,2,6,,1,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Empoleon","Emperor","Water","Steel"
+396,396,0.3,2,0,"starly",4,3,9,,4,0,1,0,1,3,1,0,"Brown","Pokémon with a single pair of wings",,"Starly","Starling","Normal","Flying"
+397,397,0.6,15.5,0,"staravia",4,3,9,,4,0,1,0,2,3,1,1,"Brown","Pokémon with a single pair of wings",,"Staravia","Starling","Normal","Flying"
+398,398,1.2,24.9,0,"staraptor",4,3,9,,4,0,1,0,3,3,0,1,"Brown","Pokémon with a single pair of wings",,"Staraptor","Predator","Normal","Flying"
+399,399,0.5,20,0,"bidoof",4,3,8,,4,0,1,0,1,2,1,0,"Brown","Pokémon with a quadruped body",,"Bidoof","Plump Mouse","Normal",
+400,400,1,31.5,0,"bibarel",4,3,6,,4,0,1,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form",,"Bibarel","Beaver","Normal","Water"
+401,401,0.3,2.2,0,"kricketot",4,8,12,,4,0,1,0,1,2,1,0,"Red","Pokémon with a bipedal, tailless form",,"Kricketot","Cricket","Bug",
+402,402,1,25.5,0,"kricketune",4,8,13,,4,0,1,0,2,2,0,1,"Red","Pokémon with two or more pairs of wings",,"Kricketune","Cricket","Bug",
+403,403,0.5,9.5,0,"shinx",4,2,8,,4,0,1,0,1,3,1,0,"Blue","Pokémon with a quadruped body",,"Shinx","Flash","Electric",
+404,404,0.9,30.5,0,"luxio",4,2,8,,4,0,1,0,2,3,1,1,"Blue","Pokémon with a quadruped body",,"Luxio","Spark","Electric",
+405,405,1.4,42,0,"luxray",4,2,8,,4,0,1,0,3,3,0,1,"Blue","Pokémon with a quadruped body",,"Luxray","Gleam Eyes","Electric",
+406,406,0.2,1.2,0,"budew",4,5,12,,4,1,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailless form",,"Budew","Bud","Grass","Poison"
+407,407,0.9,14.5,0,"roserade",4,5,12,,4,0,1,0,3,3,0,1,"Green","Pokémon with a bipedal, tailless form",,"Roserade","Bouquet","Grass","Poison"
+408,408,0.9,31.5,0,"cranidos",4,2,6,,1,0,0,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailed form",,"Cranidos","Head Butt","Rock",
+409,409,1.6,102.5,0,"rampardos",4,2,6,,1,0,0,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Rampardos","Head Butt","Rock",
+410,410,0.5,57,0,"shieldon",4,4,8,,1,0,0,0,1,2,1,0,"Gray","Pokémon with a quadruped body",,"Shieldon","Shield","Rock","Steel"
+411,411,1.3,149.5,0,"bastiodon",4,4,8,,1,0,0,0,2,2,0,1,"Gray","Pokémon with a quadruped body",,"Bastiodon","Shield","Rock","Steel"
+412,412,0.2,3.4,0,"burmy",4,4,2,,4,0,0,1,1,2,1,0,"Gray","Pokémon with serpentine bodies",,"Burmy","Bagworm","Bug",
+413,413,0.5,6.5,0,"wormadam",4,4,2,,8,0,0,0,2,2,0,1,"Gray","Pokémon with serpentine bodies",,"Wormadam","Bagworm","Bug","Grass"
+414,414,0.9,23.3,0,"mothim",4,10,13,,0,0,0,0,2,2,0,1,"Yellow","Pokémon with two or more pairs of wings",,"Mothim","Moth","Bug","Flying"
+415,415,0.3,5.5,0,"combee",4,10,11,,1,0,1,0,1,2,1,0,"Yellow","Pokémon consisting of multiple bodies",,"Combee","Tiny Bee","Bug","Flying"
+416,416,1.2,38.5,0,"vespiquen",4,10,9,,8,0,0,0,2,2,0,1,"Yellow","Pokémon with a single pair of wings",,"Vespiquen","Beehive","Bug","Flying"
+417,417,0.4,3.9,0,"pachirisu",4,9,8,,4,0,1,0,1,1,0,0,"White","Pokémon with a quadruped body",,"Pachirisu","EleSquirrel","Electric",
+418,418,0.7,29.5,0,"buizel",4,3,8,,4,0,1,0,1,2,1,0,"Brown","Pokémon with a quadruped body",,"Buizel","Sea Weasel","Water",
+419,419,1.1,33.5,0,"floatzel",4,3,8,,4,0,1,0,2,2,0,1,"Brown","Pokémon with a quadruped body",,"Floatzel","Sea Weasel","Water",
+420,420,0.4,3.3,0,"cherubi",4,6,11,,4,0,0,0,1,2,1,0,"Pink","Pokémon consisting of multiple bodies",,"Cherubi","Cherry","Grass",
+421,421,0.5,9.3,0,"cherrim",4,6,7,,4,0,0,1,2,2,0,1,"Pink","Pokémon consisting of a head and legs",,"Cherrim","Blossom","Grass",
+422,422,0.3,6.3,0,"shellos",4,7,14,,4,0,0,0,1,2,1,0,"Purple","Pokémon with an insectoid body",,"Shellos","Sea Slug","Water",
+423,423,0.9,29.9,0,"gastrodon",4,7,14,,4,0,0,0,2,2,0,1,"Purple","Pokémon with an insectoid body",,"Gastrodon","Sea Slug","Water","Ground"
+424,424,1.2,20.3,0,"ambipom",4,7,6,,4,0,1,0,2,2,0,1,"Purple","Pokémon with a bipedal, tailed form",,"Ambipom","Long Tail","Normal",
+425,425,0.4,1.2,0,"drifloon",4,7,4,,4,0,0,0,1,2,1,0,"Purple","Pokémon consisting of a head and arms",,"Drifloon","Balloon","Ghost","Flying"
+426,426,1.2,15,0,"drifblim",4,7,4,,4,0,0,0,2,2,0,1,"Purple","Pokémon consisting of a head and arms",,"Drifblim","Blimp","Ghost","Flying"
+427,427,0.4,5.5,0,"buneary",4,3,6,,4,0,0,0,1,2,1,0,"Brown","Pokémon with a bipedal, tailed form",,"Buneary","Rabbit","Normal",
+428,428,1.2,33.3,1,"lopunny",4,3,6,,4,0,0,1,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form",,"Lopunny","Rabbit","Normal",
+429,429,0.9,4.4,0,"mismagius",4,7,1,,4,0,0,0,2,2,0,1,"Purple","Pokémon consisting of only a head",,"Mismagius","Magical","Ghost",
+430,430,0.9,27.3,0,"honchkrow",4,1,9,,4,0,0,0,2,2,0,1,"Black","Pokémon with a single pair of wings",,"Honchkrow","Big Boss","Dark","Flying"
+431,431,0.5,3.9,0,"glameow",4,4,8,,6,0,0,0,1,2,1,0,"Gray","Pokémon with a quadruped body",,"Glameow","Catty","Normal",
+432,432,1,43.8,0,"purugly",4,4,8,,6,0,0,0,2,2,0,1,"Gray","Pokémon with a quadruped body",,"Purugly","Tiger Cat","Normal",
+433,433,0.2,0.6,0,"chingling",4,10,12,,4,1,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailless form",,"Chingling","Bell","Psychic",
+434,434,0.4,19.2,0,"stunky",4,7,8,,4,0,0,0,1,2,1,0,"Purple","Pokémon with a quadruped body",,"Stunky","Skunk","Poison","Dark"
+435,435,1,38,0,"skuntank",4,7,8,,4,0,0,0,2,2,0,1,"Purple","Pokémon with a quadruped body",,"Skuntank","Skunk","Poison","Dark"
+436,436,0.5,60.5,0,"bronzor",4,5,1,,-1,0,0,0,1,2,1,0,"Green","Pokémon consisting of only a head",,"Bronzor","Bronze","Steel","Psychic"
+437,437,1.3,187,0,"bronzong",4,5,4,,-1,0,0,0,2,2,0,1,"Green","Pokémon consisting of a head and arms",,"Bronzong","Bronze Bell","Steel","Psychic"
+438,438,0.5,15,0,"bonsly",4,3,7,,4,1,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and legs",,"Bonsly","Bonsai","Rock",
+439,439,0.6,13,0,"mime-jr",4,6,12,,4,1,0,0,1,2,1,0,"Pink","Pokémon with a bipedal, tailless form",,"Mime Jr.","Mime","Psychic","Fairy"
+440,440,0.6,24.4,0,"happiny",4,6,12,,8,1,0,0,1,3,1,0,"Pink","Pokémon with a bipedal, tailless form",,"Happiny","Playhouse","Normal",
+441,441,0.5,1.9,0,"chatot",4,1,9,,4,0,0,0,1,1,0,0,"Black","Pokémon with a single pair of wings",,"Chatot","Music Note","Normal","Flying"
+442,442,1,108,0,"spiritomb",4,7,5,,4,0,0,0,1,1,0,0,"Purple","Pokémon consisting of a head and a base",,"Spiritomb","Forbidden","Ghost","Dark"
+443,443,0.7,20.5,0,"gible",4,2,6,,4,0,1,0,1,3,1,0,"Blue","Pokémon with a bipedal, tailed form",,"Gible","Land Shark","Dragon","Ground"
+444,444,1.4,56,0,"gabite",4,2,6,,4,0,1,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form",,"Gabite","Cave","Dragon","Ground"
+445,445,1.9,95,1,"garchomp",4,2,6,,4,0,1,1,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Garchomp","Mach","Dragon","Ground"
+446,446,0.6,105,0,"munchlax",4,1,12,,1,1,0,0,1,2,1,0,"Black","Pokémon with a bipedal, tailless form",,"Munchlax","Big Eater","Normal",
+447,447,0.7,20.2,0,"riolu",4,2,6,,1,1,0,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailed form",,"Riolu","Emanation","Fighting",
+448,448,1.2,54,1,"lucario",4,2,6,,1,0,0,1,2,2,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Lucario","Aura","Fighting","Steel"
+449,449,0.8,49.5,0,"hippopotas",4,3,8,,4,0,1,0,1,2,1,0,"Brown","Pokémon with a quadruped body",,"Hippopotas","Hippo","Ground",
+450,450,2,300,0,"hippowdon",4,3,8,,4,0,1,0,2,2,0,1,"Brown","Pokémon with a quadruped body",,"Hippowdon","Heavyweight","Ground",
+451,451,0.8,12,0,"skorupi",4,7,14,,4,0,0,0,1,2,1,0,"Purple","Pokémon with an insectoid body",,"Skorupi","Scorpion","Poison","Bug"
+452,452,1.3,61.5,0,"drapion",4,7,14,,4,0,0,0,2,2,0,1,"Purple","Pokémon with an insectoid body",,"Drapion","Ogre Scorpion","Poison","Dark"
+453,453,0.7,23,0,"croagunk",4,2,12,,4,0,1,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailless form",,"Croagunk","Toxic Mouth","Poison","Fighting"
+454,454,1.3,44.4,0,"toxicroak",4,2,12,,4,0,1,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailless form",,"Toxicroak","Toxic Mouth","Poison","Fighting"
+455,455,1.4,27,0,"carnivine",4,5,10,,4,0,0,0,1,1,0,0,"Green","Pokémon with tentacles or a multiped body",,"Carnivine","Bug Catcher","Grass",
+456,456,0.4,7,0,"finneon",4,2,3,,4,0,1,0,1,2,1,0,"Blue","Pokémon with fins",,"Finneon","Wing Fish","Water",
+457,457,1.2,24,0,"lumineon",4,2,3,,4,0,1,0,2,2,0,1,"Blue","Pokémon with fins",,"Lumineon","Neon","Water",
+458,458,1,65,0,"mantyke",4,2,9,,4,1,0,0,1,2,1,0,"Blue","Pokémon with a single pair of wings",,"Mantyke","Kite","Water","Flying"
+459,459,1,50.5,0,"snover",4,9,6,,4,0,1,0,1,2,1,0,"White","Pokémon with a bipedal, tailed form",,"Snover","Frost Tree","Grass","Ice"
+460,460,2.2,135.5,1,"abomasnow",4,9,6,,4,0,1,1,2,2,0,1,"White","Pokémon with a bipedal, tailed form",,"Abomasnow","Frost Tree","Grass","Ice"
+461,461,1.1,34,0,"weavile",4,1,6,,4,0,1,0,2,2,0,1,"Black","Pokémon with a bipedal, tailed form",,"Weavile","Sharp Claw","Dark","Ice"
+462,462,1.2,180,0,"magnezone",4,4,4,,-1,0,0,0,3,3,0,1,"Gray","Pokémon consisting of a head and arms",,"Magnezone","Magnet Area","Electric","Steel"
+463,463,1.7,140,0,"lickilicky",4,6,12,,4,0,0,0,2,2,0,1,"Pink","Pokémon with a bipedal, tailless form",,"Lickilicky","Licking","Normal",
+464,464,2.4,282.8,0,"rhyperior",4,4,6,,4,0,1,0,3,3,0,1,"Gray","Pokémon with a bipedal, tailed form",,"Rhyperior","Drill","Ground","Rock"
+465,465,2,128.6,0,"tangrowth",4,2,12,,4,0,1,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailless form",,"Tangrowth","Vine","Grass",
+466,466,1.8,138.6,0,"electivire",4,10,6,,2,0,0,0,3,3,0,1,"Yellow","Pokémon with a bipedal, tailed form",,"Electivire","Thunderbolt","Electric",
+467,467,1.6,68,0,"magmortar",4,8,6,,2,0,0,0,3,3,0,1,"Red","Pokémon with a bipedal, tailed form",,"Magmortar","Blast","Fire",
+468,468,1.5,38,0,"togekiss",4,9,9,,1,0,0,0,3,3,0,1,"White","Pokémon with a single pair of wings",,"Togekiss","Jubilee","Fairy","Flying"
+469,469,1.9,51.5,0,"yanmega",4,5,13,,4,0,0,0,2,2,0,1,"Green","Pokémon with two or more pairs of wings",,"Yanmega","Ogre Darner","Bug","Flying"
+470,470,1,25.5,0,"leafeon",4,5,8,,1,0,0,0,2,2,0,1,"Green","Pokémon with a quadruped body",,"Leafeon","Verdant","Grass",
+471,471,0.8,25.9,0,"glaceon",4,2,8,,1,0,0,0,2,2,0,1,"Blue","Pokémon with a quadruped body",,"Glaceon","Fresh Snow","Ice",
+472,472,2,42.5,0,"gliscor",4,7,9,,4,0,0,0,2,2,0,1,"Purple","Pokémon with a single pair of wings",,"Gliscor","Fang Scorpion","Ground","Flying"
+473,473,2.5,291,0,"mamoswine",4,3,8,,4,0,1,0,3,3,0,1,"Brown","Pokémon with a quadruped body",,"Mamoswine","Twin Tusk","Ice","Ground"
+474,474,0.9,34,0,"porygon-z",4,8,4,,-1,0,0,0,3,3,0,1,"Red","Pokémon consisting of a head and arms",,"Porygon-Z","Virtual","Normal",
+475,475,1.6,52,1,"gallade",4,9,12,,0,0,0,1,3,3,0,1,"White","Pokémon with a bipedal, tailless form",,"Gallade","Blade","Psychic","Fighting"
+476,476,1.4,340,0,"probopass",4,4,11,,4,0,0,0,2,2,0,1,"Gray","Pokémon consisting of multiple bodies",,"Probopass","Compass","Rock","Steel"
+477,477,2.2,106.6,0,"dusknoir",4,1,4,,4,0,0,0,3,3,0,1,"Black","Pokémon consisting of a head and arms",,"Dusknoir","Gripper","Ghost",
+478,478,1.3,26.6,0,"froslass",4,9,4,,8,0,0,0,2,2,0,1,"White","Pokémon consisting of a head and arms",,"Froslass","Snow Land","Ice","Ghost"
+479,479,0.3,0.3,0,"rotom",4,8,1,,-1,0,0,1,1,1,0,0,"Red","Pokémon consisting of only a head",,"Rotom","Plasma","Electric","Ghost"
+480,480,0.3,0.3,0,"uxie",4,10,6,,-1,0,0,0,1,1,0,0,"Yellow","Pokémon with a bipedal, tailed form",,"Uxie","Knowledge","Psychic",
+481,481,0.3,0.3,0,"mesprit",4,6,6,,-1,0,0,0,1,1,0,0,"Pink","Pokémon with a bipedal, tailed form",,"Mesprit","Emotion","Psychic",
+482,482,0.3,0.3,0,"azelf",4,2,6,,-1,0,0,0,1,1,0,0,"Blue","Pokémon with a bipedal, tailed form",,"Azelf","Willpower","Psychic",
+483,483,5.4,683,0,"dialga",4,9,8,,-1,0,0,0,1,1,0,0,"White","Pokémon with a quadruped body",,"Dialga","Temporal","Steel","Dragon"
+484,484,4.2,336,0,"palkia",4,7,6,,-1,0,0,0,1,1,0,0,"Purple","Pokémon with a bipedal, tailed form",,"Palkia","Spatial","Water","Dragon"
+485,485,1.7,430,0,"heatran",4,3,8,,4,0,0,0,1,1,0,0,"Brown","Pokémon with a quadruped body",,"Heatran","Lava Dome","Fire","Steel"
+486,486,3.7,420,0,"regigigas",4,9,12,,-1,0,0,0,1,1,0,0,"White","Pokémon with a bipedal, tailless form",,"Regigigas","Colossal","Normal",
+487,487,4.5,750,0,"giratina",4,1,10,,-1,0,0,1,1,1,0,0,"Black","Pokémon with tentacles or a multiped body",,"Giratina","Renegade","Ghost","Dragon"
+488,488,1.5,85.6,0,"cresselia",4,10,14,,8,0,0,0,1,1,0,0,"Yellow","Pokémon with an insectoid body",,"Cresselia","Lunar","Psychic",
+489,489,0.4,3.1,0,"phione",4,2,4,,-1,0,0,0,1,1,0,0,"Blue","Pokémon consisting of a head and arms",,"Phione","Sea Drifter","Water",
+490,490,0.3,1.4,0,"manaphy",4,2,12,,-1,0,0,0,1,1,0,0,"Blue","Pokémon with a bipedal, tailless form",,"Manaphy","Seafaring","Water",
+491,491,1.5,50.5,0,"darkrai",4,1,12,,-1,0,0,0,1,1,0,0,"Black","Pokémon with a bipedal, tailless form",,"Darkrai","Pitch-Black","Dark",
+492,492,0.2,2.1,0,"shaymin",4,5,8,,-1,0,0,1,1,1,0,0,"Green","Pokémon with a quadruped body",,"Shaymin","Gratitude","Grass",
+493,493,3.2,320,0,"arceus",4,4,8,,-1,0,0,1,1,1,0,0,"Gray","Pokémon with a quadruped body",,"Arceus","Alpha","Normal",
+494,494,0.4,4,0,"victini",5,10,12,,-1,0,0,0,1,1,0,0,"Yellow","Pokémon with a bipedal, tailless form",,"Victini","Victory","Psychic","Fire"
+495,495,0.6,8.1,0,"snivy",5,5,6,,1,0,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailed form",,"Snivy","Grass Snake","Grass",
+496,496,0.8,16,0,"servine",5,5,6,,1,0,0,0,2,3,1,1,"Green","Pokémon with a bipedal, tailed form",,"Servine","Grass Snake","Grass",
+497,497,3.3,63,0,"serperior",5,5,2,,1,0,0,0,3,3,0,1,"Green","Pokémon with serpentine bodies",,"Serperior","Regal","Grass",
+498,498,0.5,9.9,0,"tepig",5,8,8,,1,0,0,0,1,3,1,0,"Red","Pokémon with a quadruped body",,"Tepig","Fire Pig","Fire",
+499,499,1,55.5,0,"pignite",5,8,6,,1,0,0,0,2,3,1,1,"Red","Pokémon with a bipedal, tailed form",,"Pignite","Fire Pig","Fire","Fighting"
+500,500,1.6,150,0,"emboar",5,8,6,,1,0,0,0,3,3,0,1,"Red","Pokémon with a bipedal, tailed form",,"Emboar","Mega Fire Pig","Fire","Fighting"
+501,501,0.5,5.9,0,"oshawott",5,2,6,,1,0,0,0,1,3,1,0,"Blue","Pokémon with a bipedal, tailed form",,"Oshawott","Sea Otter","Water",
+502,502,0.8,24.5,0,"dewott",5,2,6,,1,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form",,"Dewott","Discipline","Water",
+503,503,1.5,94.6,0,"samurott",5,2,8,,1,0,0,0,3,3,0,1,"Blue","Pokémon with a quadruped body",,"Samurott","Formidable","Water",
+504,504,0.5,11.6,0,"patrat",5,3,8,,4,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body",,"Patrat","Scout","Normal",
+505,505,1.1,27,0,"watchog",5,3,6,,4,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form",,"Watchog","Lookout","Normal",
+506,506,0.4,4.1,0,"lillipup",5,3,8,,4,0,0,0,1,3,1,0,"Brown","Pokémon with a quadruped body",,"Lillipup","Puppy","Normal",
+507,507,0.9,14.7,0,"herdier",5,4,8,,4,0,0,0,2,3,1,1,"Gray","Pokémon with a quadruped body",,"Herdier","Loyal Dog","Normal",
+508,508,1.2,61,0,"stoutland",5,4,8,,4,0,0,0,3,3,0,1,"Gray","Pokémon with a quadruped body",,"Stoutland","Big-Hearted","Normal",
+509,509,0.4,10.1,0,"purrloin",5,7,8,,4,0,0,0,1,2,1,0,"Purple","Pokémon with a quadruped body",,"Purrloin","Devious","Dark",
+510,510,1.1,37.5,0,"liepard",5,7,8,,4,0,0,0,2,2,0,1,"Purple","Pokémon with a quadruped body",,"Liepard","Cruel","Dark",
+511,511,0.6,10.5,0,"pansage",5,5,6,,1,0,0,0,1,2,1,0,"Green","Pokémon with a bipedal, tailed form",,"Pansage","Grass Monkey","Grass",
+512,512,1.1,30.5,0,"simisage",5,5,6,,1,0,0,0,2,2,0,1,"Green","Pokémon with a bipedal, tailed form",,"Simisage","Thorn Monkey","Grass",
+513,513,0.6,11,0,"pansear",5,8,6,,1,0,0,0,1,2,1,0,"Red","Pokémon with a bipedal, tailed form",,"Pansear","High Temp","Fire",
+514,514,1,28,0,"simisear",5,8,6,,1,0,0,0,2,2,0,1,"Red","Pokémon with a bipedal, tailed form",,"Simisear","Ember","Fire",
+515,515,0.6,13.5,0,"panpour",5,2,6,,1,0,0,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailed form",,"Panpour","Spray","Water",
+516,516,1,29,0,"simipour",5,2,6,,1,0,0,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Simipour","Geyser","Water",
+517,517,0.6,23.3,0,"munna",5,6,8,,4,0,0,0,1,2,1,0,"Pink","Pokémon with a quadruped body",,"Munna","Dream Eater","Psychic",
+518,518,1.1,60.5,0,"musharna",5,6,12,,4,0,0,0,2,2,0,1,"Pink","Pokémon with a bipedal, tailless form",,"Musharna","Drowsing","Psychic",
+519,519,0.3,2.1,0,"pidove",5,4,9,,4,0,0,0,1,3,1,0,"Gray","Pokémon with a single pair of wings",,"Pidove","Tiny Pigeon","Normal","Flying"
+520,520,0.6,15,0,"tranquill",5,4,9,,4,0,0,0,2,3,1,1,"Gray","Pokémon with a single pair of wings",,"Tranquill","Wild Pigeon","Normal","Flying"
+521,521,1.2,29,0,"unfezant",5,4,9,,4,0,1,0,3,3,0,1,"Gray","Pokémon with a single pair of wings",,"Unfezant","Proud","Normal","Flying"
+522,522,0.8,29.8,0,"blitzle",5,1,8,,4,0,0,0,1,2,1,0,"Black","Pokémon with a quadruped body",,"Blitzle","Electrified","Electric",
+523,523,1.6,79.5,0,"zebstrika",5,1,8,,4,0,0,0,2,2,0,1,"Black","Pokémon with a quadruped body",,"Zebstrika","Thunderbolt","Electric",
+524,524,0.4,18,0,"roggenrola",5,2,7,,4,0,0,0,1,3,1,0,"Blue","Pokémon consisting of a head and legs",,"Roggenrola","Mantle","Rock",
+525,525,0.9,102,0,"boldore",5,2,10,,4,0,0,0,2,3,1,1,"Blue","Pokémon with tentacles or a multiped body",,"Boldore","Ore","Rock",
+526,526,1.7,260,0,"gigalith",5,2,10,,4,0,0,0,3,3,0,1,"Blue","Pokémon with tentacles or a multiped body",,"Gigalith","Compressed","Rock",
+527,527,0.4,2.1,0,"woobat",5,2,9,,4,0,0,0,1,2,1,0,"Blue","Pokémon with a single pair of wings",,"Woobat","Bat","Psychic","Flying"
+528,528,0.9,10.5,0,"swoobat",5,2,9,,4,0,0,0,2,2,0,1,"Blue","Pokémon with a single pair of wings",,"Swoobat","Courting","Psychic","Flying"
+529,529,0.3,8.5,0,"drilbur",5,4,6,,4,0,0,0,1,2,1,0,"Gray","Pokémon with a bipedal, tailed form",,"Drilbur","Mole","Ground",
+530,530,0.7,40.4,0,"excadrill",5,4,12,,4,0,0,0,2,2,0,1,"Gray","Pokémon with a bipedal, tailless form",,"Excadrill","Subterrene","Ground","Steel"
+531,531,1.1,31,1,"audino",5,6,6,,4,0,0,1,1,1,0,0,"Pink","Pokémon with a bipedal, tailed form",,"Audino","Hearing","Normal",
+532,532,0.6,12.5,0,"timburr",5,4,12,,2,0,0,0,1,3,1,0,"Gray","Pokémon with a bipedal, tailless form",,"Timburr","Muscular","Fighting",
+533,533,1.2,40,0,"gurdurr",5,4,12,,2,0,0,0,2,3,1,1,"Gray","Pokémon with a bipedal, tailless form",,"Gurdurr","Muscular","Fighting",
+534,534,1.4,87,0,"conkeldurr",5,3,12,,2,0,0,0,3,3,0,1,"Brown","Pokémon with a bipedal, tailless form",,"Conkeldurr","Muscular","Fighting",
+535,535,0.5,4.5,0,"tympole",5,2,3,,4,0,0,0,1,3,1,0,"Blue","Pokémon with fins",,"Tympole","Tadpole","Water",
+536,536,0.8,17,0,"palpitoad",5,2,6,,4,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailed form",,"Palpitoad","Vibration","Water","Ground"
+537,537,1.5,62,0,"seismitoad",5,2,12,,4,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailless form",,"Seismitoad","Vibration","Water","Ground"
+538,538,1.3,55.5,0,"throh",5,8,12,,0,0,0,0,1,1,0,0,"Red","Pokémon with a bipedal, tailless form",,"Throh","Judo","Fighting",
+539,539,1.4,51,0,"sawk",5,2,12,,0,0,0,0,1,1,0,0,"Blue","Pokémon with a bipedal, tailless form",,"Sawk","Karate","Fighting",
+540,540,0.3,2.5,0,"sewaddle",5,10,14,,4,0,0,0,1,3,1,0,"Yellow","Pokémon with an insectoid body",,"Sewaddle","Sewing","Bug","Grass"
+541,541,0.5,7.3,0,"swadloon",5,5,4,,4,0,0,0,2,3,1,1,"Green","Pokémon consisting of a head and arms",,"Swadloon","Leaf-Wrapped","Bug","Grass"
+542,542,1.2,20.5,0,"leavanny",5,10,12,,4,0,0,0,3,3,0,1,"Yellow","Pokémon with a bipedal, tailless form",,"Leavanny","Nurturing","Bug","Grass"
+543,543,0.4,5.3,0,"venipede",5,8,14,,4,0,0,0,1,3,1,0,"Red","Pokémon with an insectoid body",,"Venipede","Centipede","Bug","Poison"
+544,544,1.2,58.5,0,"whirlipede",5,4,1,,4,0,0,0,2,3,1,1,"Gray","Pokémon consisting of only a head",,"Whirlipede","Curlipede","Bug","Poison"
+545,545,2.5,200.5,0,"scolipede",5,8,14,,4,0,0,0,3,3,0,1,"Red","Pokémon with an insectoid body",,"Scolipede","Megapede","Bug","Poison"
+546,546,0.3,0.6,0,"cottonee",5,5,1,,4,0,0,0,1,2,1,0,"Green","Pokémon consisting of only a head",,"Cottonee","Cotton Puff","Grass","Fairy"
+547,547,0.7,6.6,0,"whimsicott",5,5,12,,4,0,0,0,2,2,0,1,"Green","Pokémon with a bipedal, tailless form",,"Whimsicott","Windveiled","Grass","Fairy"
+548,548,0.5,6.6,0,"petilil",5,5,5,,8,0,0,0,1,2,1,0,"Green","Pokémon consisting of a head and a base",,"Petilil","Bulb","Grass",
+549,549,1.1,16.3,0,"lilligant",5,5,5,,8,0,0,0,2,2,0,1,"Green","Pokémon consisting of a head and a base",,"Lilligant","Flowering","Grass",
+550,550,1,18,0,"basculin",5,5,3,,4,0,0,0,1,1,0,0,"Green","Pokémon with fins",,"Basculin","Hostile","Water",
+551,551,0.7,15.2,0,"sandile",5,3,8,,4,0,0,0,1,3,1,0,"Brown","Pokémon with a quadruped body",,"Sandile","Desert Croc","Ground","Dark"
+552,552,1,33.4,0,"krokorok",5,3,8,,4,0,0,0,2,3,1,1,"Brown","Pokémon with a quadruped body",,"Krokorok","Desert Croc","Ground","Dark"
+553,553,1.5,96.3,0,"krookodile",5,8,6,,4,0,0,0,3,3,0,1,"Red","Pokémon with a bipedal, tailed form",,"Krookodile","Intimidation","Ground","Dark"
+554,554,0.6,37.5,0,"darumaka",5,8,12,,4,0,0,0,1,2,1,0,"Red","Pokémon with a bipedal, tailless form",,"Darumaka","Zen Charm","Fire",
+555,555,1.3,92.9,0,"darmanitan",5,8,8,,4,0,0,1,2,2,0,1,"Red","Pokémon with a quadruped body",,"Darmanitan","Blazing","Fire",
+556,556,1,28,0,"maractus",5,5,5,,4,0,0,0,1,1,0,0,"Green","Pokémon consisting of a head and a base",,"Maractus","Cactus","Grass",
+557,557,0.3,14.5,0,"dwebble",5,8,14,,4,0,0,0,1,2,1,0,"Red","Pokémon with an insectoid body",,"Dwebble","Rock Inn","Bug","Rock"
+558,558,1.4,200,0,"crustle",5,8,14,,4,0,0,0,2,2,0,1,"Red","Pokémon with an insectoid body",,"Crustle","Stone Home","Bug","Rock"
+559,559,0.6,11.8,0,"scraggy",5,10,6,,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailed form",,"Scraggy","Shedding","Dark","Fighting"
+560,560,1.1,30,0,"scrafty",5,8,6,,4,0,0,0,2,2,0,1,"Red","Pokémon with a bipedal, tailed form",,"Scrafty","Hoodlum","Dark","Fighting"
+561,561,1.4,14,0,"sigilyph",5,1,9,,4,0,0,0,1,1,0,0,"Black","Pokémon with a single pair of wings",,"Sigilyph","Avianoid","Psychic","Flying"
+562,562,0.5,1.5,0,"yamask",5,1,4,,4,0,0,0,1,2,1,0,"Black","Pokémon consisting of a head and arms",,"Yamask","Spirit","Ghost",
+563,563,1.7,76.5,0,"cofagrigus",5,10,5,,4,0,0,0,2,2,0,1,"Yellow","Pokémon consisting of a head and a base",,"Cofagrigus","Coffin","Ghost",
+564,564,0.7,16.5,0,"tirtouga",5,2,8,,1,0,0,0,1,2,1,0,"Blue","Pokémon with a quadruped body",,"Tirtouga","Prototurtle","Water","Rock"
+565,565,1.2,81,0,"carracosta",5,2,6,,1,0,0,0,2,2,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Carracosta","Prototurtle","Water","Rock"
+566,566,0.5,9.5,0,"archen",5,10,9,,1,0,0,0,1,2,1,0,"Yellow","Pokémon with a single pair of wings",,"Archen","First Bird","Rock","Flying"
+567,567,1.4,32,0,"archeops",5,10,9,,1,0,0,0,2,2,0,1,"Yellow","Pokémon with a single pair of wings",,"Archeops","First Bird","Rock","Flying"
+568,568,0.6,31,0,"trubbish",5,5,12,,4,0,0,0,1,2,1,0,"Green","Pokémon with a bipedal, tailless form",,"Trubbish","Trash Bag","Poison",
+569,569,1.9,107.3,0,"garbodor",5,5,12,,4,0,0,0,2,2,0,1,"Green","Pokémon with a bipedal, tailless form",,"Garbodor","Trash Heap","Poison",
+570,570,0.7,12.5,0,"zorua",5,4,8,,1,0,0,0,1,2,1,0,"Gray","Pokémon with a quadruped body",,"Zorua","Tricky Fox","Dark",
+571,571,1.6,81.1,0,"zoroark",5,4,6,,1,0,0,0,2,2,0,1,"Gray","Pokémon with a bipedal, tailed form",,"Zoroark","Illusion Fox","Dark",
+572,572,0.4,5.8,0,"minccino",5,4,8,,6,0,0,0,1,2,1,0,"Gray","Pokémon with a quadruped body",,"Minccino","Chinchilla","Normal",
+573,573,0.5,7.5,0,"cinccino",5,4,8,,6,0,0,0,2,2,0,1,"Gray","Pokémon with a quadruped body",,"Cinccino","Scarf","Normal",
+574,574,0.4,5.8,0,"gothita",5,7,12,,6,0,0,0,1,3,1,0,"Purple","Pokémon with a bipedal, tailless form",,"Gothita","Fixation","Psychic",
+575,575,0.7,18,0,"gothorita",5,7,12,,6,0,0,0,2,3,1,1,"Purple","Pokémon with a bipedal, tailless form",,"Gothorita","Manipulate","Psychic",
+576,576,1.5,44,0,"gothitelle",5,7,12,,6,0,0,0,3,3,0,1,"Purple","Pokémon with a bipedal, tailless form",,"Gothitelle","Astral Body","Psychic",
+577,577,0.3,1,0,"solosis",5,5,1,,4,0,0,0,1,3,1,0,"Green","Pokémon consisting of only a head",,"Solosis","Cell","Psychic",
+578,578,0.6,8,0,"duosion",5,5,1,,4,0,0,0,2,3,1,1,"Green","Pokémon consisting of only a head",,"Duosion","Mitosis","Psychic",
+579,579,1,20.1,0,"reuniclus",5,5,4,,4,0,0,0,3,3,0,1,"Green","Pokémon consisting of a head and arms",,"Reuniclus","Multiplying","Psychic",
+580,580,0.5,5.5,0,"ducklett",5,2,9,,4,0,0,0,1,2,1,0,"Blue","Pokémon with a single pair of wings",,"Ducklett","Water Bird","Water","Flying"
+581,581,1.3,24.2,0,"swanna",5,9,9,,4,0,0,0,2,2,0,1,"White","Pokémon with a single pair of wings",,"Swanna","White Bird","Water","Flying"
+582,582,0.4,5.7,0,"vanillite",5,9,5,,4,0,0,0,1,3,1,0,"White","Pokémon consisting of a head and a base",,"Vanillite","Fresh Snow","Ice",
+583,583,1.1,41,0,"vanillish",5,9,5,,4,0,0,0,2,3,1,1,"White","Pokémon consisting of a head and a base",,"Vanillish","Icy Snow","Ice",
+584,584,1.3,57.5,0,"vanilluxe",5,9,11,,4,0,0,0,3,3,0,1,"White","Pokémon consisting of multiple bodies",,"Vanilluxe","Snowstorm","Ice",
+585,585,0.6,19.5,0,"deerling",5,10,8,,4,0,0,1,1,2,1,0,"Yellow","Pokémon with a quadruped body",,"Deerling","Season","Normal","Grass"
+586,586,1.9,92.5,0,"sawsbuck",5,3,8,,4,0,0,1,2,2,0,1,"Brown","Pokémon with a quadruped body",,"Sawsbuck","Season","Normal","Grass"
+587,587,0.4,5,0,"emolga",5,9,8,,4,0,0,0,1,1,0,0,"White","Pokémon with a quadruped body",,"Emolga","Sky Squirrel","Electric","Flying"
+588,588,0.5,5.9,0,"karrablast",5,2,12,,4,0,0,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailless form",,"Karrablast","Clamping","Bug",
+589,589,1,33,0,"escavalier",5,4,4,,4,0,0,0,2,2,0,1,"Gray","Pokémon consisting of a head and arms",,"Escavalier","Cavalry","Bug","Steel"
+590,590,0.2,1,0,"foongus",5,9,4,,4,0,0,0,1,2,1,0,"White","Pokémon consisting of a head and arms",,"Foongus","Mushroom","Grass","Poison"
+591,591,0.6,10.5,0,"amoonguss",5,9,4,,4,0,0,0,2,2,0,1,"White","Pokémon consisting of a head and arms",,"Amoonguss","Mushroom","Grass","Poison"
+592,592,1.2,33,0,"frillish",5,9,10,,4,0,1,0,1,2,1,0,"White","Pokémon with tentacles or a multiped body",,"Frillish","Floating","Water","Ghost"
+593,593,2.2,135,0,"jellicent",5,9,10,,4,0,1,0,2,2,0,1,"White","Pokémon with tentacles or a multiped body",,"Jellicent","Floating","Water","Ghost"
+594,594,1.2,31.6,0,"alomomola",5,6,3,,4,0,0,0,1,1,0,0,"Pink","Pokémon with fins",,"Alomomola","Caring","Water",
+595,595,0.1,0.6,0,"joltik",5,10,14,,4,0,0,0,1,2,1,0,"Yellow","Pokémon with an insectoid body",,"Joltik","Attaching","Bug","Electric"
+596,596,0.8,14.3,0,"galvantula",5,10,14,,4,0,0,0,2,2,0,1,"Yellow","Pokémon with an insectoid body",,"Galvantula","EleSpider","Bug","Electric"
+597,597,0.6,18.8,0,"ferroseed",5,4,1,,4,0,0,0,1,2,1,0,"Gray","Pokémon consisting of only a head",,"Ferroseed","Thorn Seed","Grass","Steel"
+598,598,1,110,0,"ferrothorn",5,4,10,,4,0,0,0,2,2,0,1,"Gray","Pokémon with tentacles or a multiped body",,"Ferrothorn","Thorn Pod","Grass","Steel"
+599,599,0.3,21,0,"klink",5,4,11,,-1,0,0,0,1,3,1,0,"Gray","Pokémon consisting of multiple bodies",,"Klink","Gear","Steel",
+600,600,0.6,51,0,"klang",5,4,11,,-1,0,0,0,2,3,1,1,"Gray","Pokémon consisting of multiple bodies",,"Klang","Gear","Steel",
+601,601,0.6,81,0,"klinklang",5,4,11,,-1,0,0,0,3,3,0,1,"Gray","Pokémon consisting of multiple bodies",,"Klinklang","Gear","Steel",
+602,602,0.2,0.3,0,"tynamo",5,9,3,,4,0,0,0,1,3,1,0,"White","Pokémon with fins",,"Tynamo","EleFish","Electric",
+603,603,1.2,22,0,"eelektrik",5,2,3,,4,0,0,0,2,3,1,1,"Blue","Pokémon with fins",,"Eelektrik","EleFish","Electric",
+604,604,2.1,80.5,0,"eelektross",5,2,3,,4,0,0,0,3,3,0,1,"Blue","Pokémon with fins",,"Eelektross","EleFish","Electric",
+605,605,0.5,9,0,"elgyem",5,2,6,,4,0,0,0,1,2,1,0,"Blue","Pokémon with a bipedal, tailed form",,"Elgyem","Cerebral","Psychic",
+606,606,1,34.5,0,"beheeyem",5,3,12,,4,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailless form",,"Beheeyem","Cerebral","Psychic",
+607,607,0.3,3.1,0,"litwick",5,9,5,,4,0,0,0,1,3,1,0,"White","Pokémon consisting of a head and a base",,"Litwick","Candle","Ghost","Fire"
+608,608,0.6,13,0,"lampent",5,1,4,,4,0,0,0,2,3,1,1,"Black","Pokémon consisting of a head and arms",,"Lampent","Lamp","Ghost","Fire"
+609,609,1,34.3,0,"chandelure",5,1,4,,4,0,0,0,3,3,0,1,"Black","Pokémon consisting of a head and arms",,"Chandelure","Luring","Ghost","Fire"
+610,610,0.6,18,0,"axew",5,5,6,,4,0,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailed form",,"Axew","Tusk","Dragon",
+611,611,1,36,0,"fraxure",5,5,6,,4,0,0,0,2,3,1,1,"Green","Pokémon with a bipedal, tailed form",,"Fraxure","Axe Jaw","Dragon",
+612,612,1.8,105.5,0,"haxorus",5,10,6,,4,0,0,0,3,3,0,1,"Yellow","Pokémon with a bipedal, tailed form",,"Haxorus","Axe Jaw","Dragon",
+613,613,0.5,8.5,0,"cubchoo",5,9,6,,4,0,0,0,1,2,1,0,"White","Pokémon with a bipedal, tailed form",,"Cubchoo","Chill","Ice",
+614,614,2.6,260,0,"beartic",5,9,8,,4,0,0,0,2,2,0,1,"White","Pokémon with a quadruped body",,"Beartic","Freezing","Ice",
+615,615,1.1,148,0,"cryogonal",5,2,1,,-1,0,0,0,1,1,0,0,"Blue","Pokémon consisting of only a head",,"Cryogonal","Crystallizing","Ice",
+616,616,0.4,7.7,0,"shelmet",5,8,1,,4,0,0,0,1,2,1,0,"Red","Pokémon consisting of only a head",,"Shelmet","Snail","Bug",
+617,617,0.8,25.3,0,"accelgor",5,8,4,,4,0,0,0,2,2,0,1,"Red","Pokémon consisting of a head and arms",,"Accelgor","Shell Out","Bug",
+618,618,0.7,11,0,"stunfisk",5,3,3,,4,0,0,0,1,1,0,0,"Brown","Pokémon with fins",,"Stunfisk","Trap","Ground","Electric"
+619,619,0.9,20,0,"mienfoo",5,10,6,,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailed form",,"Mienfoo","Martial Arts","Fighting",
+620,620,1.4,35.5,0,"mienshao",5,7,6,,4,0,0,0,2,2,0,1,"Purple","Pokémon with a bipedal, tailed form",,"Mienshao","Martial Arts","Fighting",
+621,621,1.6,139,0,"druddigon",5,8,6,,4,0,0,0,1,1,0,0,"Red","Pokémon with a bipedal, tailed form",,"Druddigon","Cave","Dragon",
+622,622,1,92,0,"golett",5,5,12,,-1,0,0,0,1,2,1,0,"Green","Pokémon with a bipedal, tailless form",,"Golett","Automaton","Ground","Ghost"
+623,623,2.8,330,0,"golurk",5,5,12,,-1,0,0,0,2,2,0,1,"Green","Pokémon with a bipedal, tailless form",,"Golurk","Automaton","Ground","Ghost"
+624,624,0.5,10.2,0,"pawniard",5,8,12,,4,0,0,0,1,2,1,0,"Red","Pokémon with a bipedal, tailless form",,"Pawniard","Sharp Blade","Dark","Steel"
+625,625,1.6,70,0,"bisharp",5,8,12,,4,0,0,0,2,2,0,1,"Red","Pokémon with a bipedal, tailless form",,"Bisharp","Sword Blade","Dark","Steel"
+626,626,1.6,94.6,0,"bouffalant",5,3,8,,4,0,0,0,1,1,0,0,"Brown","Pokémon with a quadruped body",,"Bouffalant","Bash Buffalo","Normal",
+627,627,0.5,10.5,0,"rufflet",5,9,9,,0,0,0,0,1,2,1,0,"White","Pokémon with a single pair of wings",,"Rufflet","Eaglet","Normal","Flying"
+628,628,1.5,41,0,"braviary",5,8,9,,0,0,0,0,2,2,0,1,"Red","Pokémon with a single pair of wings",,"Braviary","Valiant","Normal","Flying"
+629,629,0.5,9,0,"vullaby",5,3,9,,8,0,0,0,1,2,1,0,"Brown","Pokémon with a single pair of wings",,"Vullaby","Diapered","Dark","Flying"
+630,630,1.2,39.5,0,"mandibuzz",5,3,9,,8,0,0,0,2,2,0,1,"Brown","Pokémon with a single pair of wings",,"Mandibuzz","Bone Vulture","Dark","Flying"
+631,631,1.4,58,0,"heatmor",5,8,6,,4,0,0,0,1,1,0,0,"Red","Pokémon with a bipedal, tailed form",,"Heatmor","Anteater","Fire",
+632,632,0.3,33,0,"durant",5,4,14,,4,0,0,0,1,1,0,0,"Gray","Pokémon with an insectoid body",,"Durant","Iron Ant","Bug","Steel"
+633,633,0.8,17.3,0,"deino",5,2,8,,4,0,0,0,1,3,1,0,"Blue","Pokémon with a quadruped body",,"Deino","Irate","Dark","Dragon"
+634,634,1.4,50,0,"zweilous",5,2,8,,4,0,0,0,2,3,1,1,"Blue","Pokémon with a quadruped body",,"Zweilous","Hostile","Dark","Dragon"
+635,635,1.8,160,0,"hydreigon",5,2,6,,4,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailed form",,"Hydreigon","Brutal","Dark","Dragon"
+636,636,1.1,28.8,0,"larvesta",5,9,14,,4,0,0,0,1,2,1,0,"White","Pokémon with an insectoid body",,"Larvesta","Torch","Bug","Fire"
+637,637,1.6,46,0,"volcarona",5,9,13,,4,0,0,0,2,2,0,1,"White","Pokémon with two or more pairs of wings",,"Volcarona","Sun","Bug","Fire"
+638,638,2.1,250,0,"cobalion",5,2,8,,-1,0,0,0,1,1,0,0,"Blue","Pokémon with a quadruped body",,"Cobalion","Iron Will","Steel","Fighting"
+639,639,1.9,260,0,"terrakion",5,4,8,,-1,0,0,0,1,1,0,0,"Gray","Pokémon with a quadruped body",,"Terrakion","Cavern","Rock","Fighting"
+640,640,2,200,0,"virizion",5,5,8,,-1,0,0,0,1,1,0,0,"Green","Pokémon with a quadruped body",,"Virizion","Grassland","Grass","Fighting"
+641,641,1.5,63,0,"tornadus",5,5,4,,0,0,0,1,1,1,0,0,"Green","Pokémon consisting of a head and arms",,"Tornadus","Cyclone","Flying",
+642,642,1.5,61,0,"thundurus",5,2,4,,0,0,0,1,1,1,0,0,"Blue","Pokémon consisting of a head and arms",,"Thundurus","Bolt Strike","Electric","Flying"
+643,643,3.2,330,0,"reshiram",5,9,9,,-1,0,0,0,1,1,0,0,"White","Pokémon with a single pair of wings",,"Reshiram","Vast White","Dragon","Fire"
+644,644,2.9,345,0,"zekrom",5,1,6,,-1,0,0,0,1,1,0,0,"Black","Pokémon with a bipedal, tailed form",,"Zekrom","Deep Black","Dragon","Electric"
+645,645,1.5,68,0,"landorus",5,3,4,,0,0,0,1,1,1,0,0,"Brown","Pokémon consisting of a head and arms",,"Landorus","Abundance","Ground","Flying"
+646,646,3,325,0,"kyurem",5,4,6,,-1,0,0,1,1,1,0,0,"Gray","Pokémon with a bipedal, tailed form",,"Kyurem","Boundary","Dragon","Ice"
+647,647,1.4,48.5,0,"keldeo",5,10,8,,-1,0,0,1,1,1,0,0,"Yellow","Pokémon with a quadruped body",,"Keldeo","Colt","Water","Fighting"
+648,648,0.6,6.5,0,"meloetta",5,9,12,,-1,0,0,1,1,1,0,0,"White","Pokémon with a bipedal, tailless form",,"Meloetta","Melody","Normal","Psychic"
+649,649,1.5,82.5,0,"genesect",5,7,12,,-1,0,0,1,1,1,0,0,"Purple","Pokémon with a bipedal, tailless form",,"Genesect","Paleozoic","Bug","Steel"
+650,650,0.4,9,0,"chespin",6,5,6,,1,0,0,0,1,3,1,0,"Green","Pokémon with a bipedal, tailed form",,"Chespin","Spiny Nut","Grass",
+651,651,0.7,29,0,"quilladin",6,5,6,,1,0,0,0,2,3,1,1,"Green","Pokémon with a bipedal, tailed form",,"Quilladin","Spiny Armor","Grass",
+652,652,1.6,90,0,"chesnaught",6,5,6,,1,0,0,0,3,3,0,1,"Green","Pokémon with a bipedal, tailed form",,"Chesnaught","Spiny Armor","Grass","Fighting"
+653,653,0.4,9.4,0,"fennekin",6,8,8,,1,0,0,0,1,3,1,0,"Red","Pokémon with a quadruped body",,"Fennekin","Fox","Fire",
+654,654,1,14.5,0,"braixen",6,8,6,,1,0,0,0,2,3,1,1,"Red","Pokémon with a bipedal, tailed form",,"Braixen","Fox","Fire",
+655,655,1.5,39,0,"delphox",6,8,6,,1,0,0,0,3,3,0,1,"Red","Pokémon with a bipedal, tailed form",,"Delphox","Fox","Fire","Psychic"
+656,656,0.3,7,0,"froakie",6,2,8,,1,0,0,0,1,3,1,0,"Blue","Pokémon with a quadruped body",,"Froakie","Bubble Frog","Water",
+657,657,0.6,10.9,0,"frogadier",6,2,12,,1,0,0,0,2,3,1,1,"Blue","Pokémon with a bipedal, tailless form",,"Frogadier","Bubble Frog","Water",
+658,658,1.5,40,0,"greninja",6,2,12,,1,0,0,0,3,3,0,1,"Blue","Pokémon with a bipedal, tailless form",,"Greninja","Ninja","Water","Dark"
+659,659,0.4,5,0,"bunnelby",6,3,6,,4,0,0,0,1,2,1,0,"Brown","Pokémon with a bipedal, tailed form",,"Bunnelby","Digging","Normal",
+660,660,1,42.4,0,"diggersby",6,3,6,,4,0,0,0,2,2,0,1,"Brown","Pokémon with a bipedal, tailed form",,"Diggersby","Digging","Normal","Ground"
+661,661,0.3,1.7,0,"fletchling",6,8,9,,4,0,0,0,1,3,1,0,"Red","Pokémon with a single pair of wings",,"Fletchling","Tiny Robin","Normal","Flying"
+662,662,0.7,16,0,"fletchinder",6,8,9,,4,0,0,0,2,3,1,1,"Red","Pokémon with a single pair of wings",,"Fletchinder","Ember","Fire","Flying"
+663,663,1.2,24.5,0,"talonflame",6,8,9,,4,0,0,0,3,3,0,1,"Red","Pokémon with a single pair of wings",,"Talonflame","Scorching","Fire","Flying"
+664,664,0.3,2.5,0,"scatterbug",6,1,14,,4,0,0,0,1,3,1,0,"Black","Pokémon with an insectoid body",,"Scatterbug","Scatterdust","Bug",
+665,665,0.3,8.4,0,"spewpa",6,1,5,,4,0,0,0,2,3,1,1,"Black","Pokémon consisting of a head and a base",,"Spewpa","Scatterdust","Bug",
+666,666,1.2,17,0,"vivillon",6,1,13,,4,0,0,0,3,3,0,1,"Black","Pokémon with two or more pairs of wings",,"Vivillon","Scale","Bug","Flying"
+667,667,0.6,13.5,0,"litleo",6,3,8,,7,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body",,"Litleo","Lion Cub","Fire","Normal"
+668,668,1.5,81.5,0,"pyroar",6,3,8,,7,0,1,0,2,2,0,1,"Brown","Pokémon with a quadruped body",,"Pyroar","Royal","Fire","Normal"
+669,669,0.1,0.1,0,"flabebe",6,9,4,,8,0,0,0,1,3,1,0,"White","Pokémon consisting of a head and arms",,"Flabébé","Single Bloom","Fairy",
+670,670,0.2,0.9,0,"floette",6,9,4,,8,0,0,0,2,3,1,1,"White","Pokémon consisting of a head and arms",,"Floette","Single Bloom","Fairy",
+671,671,1.1,10,0,"florges",6,9,4,,8,0,0,0,3,3,0,1,"White","Pokémon consisting of a head and arms",,"Florges","Garden","Fairy",
+672,672,0.9,31,0,"skiddo",6,3,8,,4,0,0,0,1,2,1,0,"Brown","Pokémon with a quadruped body",,"Skiddo","Mount","Grass",
+673,673,1.7,91,0,"gogoat",6,3,8,,4,0,0,0,2,2,0,1,"Brown","Pokémon with a quadruped body",,"Gogoat","Mount","Grass",
+674,674,0.6,8,0,"pancham",6,9,6,,4,0,0,0,1,2,1,0,"White","Pokémon with a bipedal, tailed form",,"Pancham","Playful","Fighting",
+675,675,2.1,136,0,"pangoro",6,9,12,,4,0,0,0,2,2,0,1,"White","Pokémon with a bipedal, tailless form",,"Pangoro","Daunting","Fighting","Dark"
+676,676,1.2,28,0,"furfrou",6,9,8,,4,0,0,1,1,1,0,0,"White","Pokémon with a quadruped body",,"Furfrou","Poodle","Normal",
+677,677,0.3,3.5,0,"espurr",6,4,6,,4,0,0,0,1,2,1,0,"Gray","Pokémon with a bipedal, tailed form",,"Espurr","Restraint","Psychic",
+678,678,0.6,8.5,0,"meowstic",6,9,6,,4,0,1,0,2,2,0,1,"White","Pokémon with a bipedal, tailed form",,"Meowstic","Constraint","Psychic",
+679,679,0.8,2,0,"honedge",6,3,5,,4,0,0,0,1,3,1,0,"Brown","Pokémon consisting of a head and a base",,"Honedge","Sword","Steel","Ghost"
+680,680,0.8,4.5,0,"doublade",6,3,11,,4,0,0,0,2,3,1,1,"Brown","Pokémon consisting of multiple bodies",,"Doublade","Sword","Steel","Ghost"
+681,681,1.7,53,0,"aegislash",6,3,5,,4,0,0,1,3,3,0,1,"Brown","Pokémon consisting of a head and a base",,"Aegislash","Royal Sword","Steel","Ghost"
+682,682,0.2,0.5,0,"spritzee",6,6,4,,4,0,0,0,1,2,1,0,"Pink","Pokémon consisting of a head and arms",,"Spritzee","Perfume","Fairy",
+683,683,0.8,15.5,0,"aromatisse",6,6,12,,4,0,0,0,2,2,0,1,"Pink","Pokémon with a bipedal, tailless form",,"Aromatisse","Fragrance","Fairy",
+684,684,0.4,3.5,0,"swirlix",6,9,7,,4,0,0,0,1,2,1,0,"White","Pokémon consisting of a head and legs",,"Swirlix","Cotton Candy","Fairy",
+685,685,0.8,5,0,"slurpuff",6,9,12,,4,0,0,0,2,2,0,1,"White","Pokémon with a bipedal, tailless form",,"Slurpuff","Meringue","Fairy",
+686,686,0.4,3.5,0,"inkay",6,2,10,,4,0,0,0,1,2,1,0,"Blue","Pokémon with tentacles or a multiped body",,"Inkay","Revolving","Dark","Psychic"
+687,687,1.5,47,0,"malamar",6,2,5,,4,0,0,0,2,2,0,1,"Blue","Pokémon consisting of a head and a base",,"Malamar","Overturning","Dark","Psychic"
+688,688,0.5,31,0,"binacle",6,3,11,,4,0,0,0,1,2,1,0,"Brown","Pokémon consisting of multiple bodies",,"Binacle","Two-Handed","Rock","Water"
+689,689,1.3,96,0,"barbaracle",6,3,11,,4,0,0,0,2,2,0,1,"Brown","Pokémon consisting of multiple bodies",,"Barbaracle","Collective","Rock","Water"
+690,690,0.5,7.3,0,"skrelp",6,3,5,,4,0,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and a base",,"Skrelp","Mock Kelp","Poison","Water"
+691,691,1.8,81.5,0,"dragalge",6,3,5,,4,0,0,0,2,2,0,1,"Brown","Pokémon consisting of a head and a base",,"Dragalge","Mock Kelp","Poison","Dragon"
+692,692,0.5,8.3,0,"clauncher",6,2,14,,4,0,0,0,1,2,1,0,"Blue","Pokémon with an insectoid body",,"Clauncher","Water Gun","Water",
+693,693,1.3,35.3,0,"clawitzer",6,2,2,,4,0,0,0,2,2,0,1,"Blue","Pokémon with serpentine bodies",,"Clawitzer","Howitzer","Water",
+694,694,0.5,6,0,"helioptile",6,10,6,,4,0,0,0,1,2,1,0,"Yellow","Pokémon with a bipedal, tailed form",,"Helioptile","Generator","Electric","Normal"
+695,695,1,21,0,"heliolisk",6,10,6,,4,0,0,0,2,2,0,1,"Yellow","Pokémon with a bipedal, tailed form",,"Heliolisk","Generator","Electric","Normal"
+696,696,0.8,26,0,"tyrunt",6,3,6,,1,0,0,0,1,2,1,0,"Brown","Pokémon with a bipedal, tailed form",,"Tyrunt","Royal Heir","Rock","Dragon"
+697,697,2.5,270,0,"tyrantrum",6,8,6,,1,0,0,0,2,2,0,1,"Red","Pokémon with a bipedal, tailed form",,"Tyrantrum","Despot","Rock","Dragon"
+698,698,1.3,25.2,0,"amaura",6,2,8,,1,0,0,0,1,2,1,0,"Blue","Pokémon with a quadruped body",,"Amaura","Tundra","Rock","Ice"
+699,699,2.7,225,0,"aurorus",6,2,8,,1,0,0,0,2,2,0,1,"Blue","Pokémon with a quadruped body",,"Aurorus","Tundra","Rock","Ice"
+700,700,1,23.5,0,"sylveon",6,6,8,,1,0,0,0,2,2,0,1,"Pink","Pokémon with a quadruped body",,"Sylveon","Intertwining","Fairy",
+701,701,0.8,21.5,0,"hawlucha",6,5,12,,4,0,0,0,1,1,0,0,"Green","Pokémon with a bipedal, tailless form",,"Hawlucha","Wrestling","Fighting","Flying"
+702,702,0.2,2.2,0,"dedenne",6,10,6,,4,0,0,0,1,1,0,0,"Yellow","Pokémon with a bipedal, tailed form",,"Dedenne","Antenna","Electric","Fairy"
+703,703,0.3,5.7,0,"carbink",6,4,1,,-1,0,0,0,1,1,0,0,"Gray","Pokémon consisting of only a head",,"Carbink","Jewel","Rock","Fairy"
+704,704,0.3,2.8,0,"goomy",6,7,2,,4,0,0,0,1,3,1,0,"Purple","Pokémon with serpentine bodies",,"Goomy","Soft Tissue","Dragon",
+705,705,0.8,17.5,0,"sliggoo",6,7,2,,4,0,0,0,2,3,1,1,"Purple","Pokémon with serpentine bodies",,"Sliggoo","Soft Tissue","Dragon",
+706,706,2,150.5,0,"goodra",6,7,6,,4,0,0,0,3,3,0,1,"Purple","Pokémon with a bipedal, tailed form",,"Goodra","Dragon","Dragon",
+707,707,0.2,3,0,"klefki",6,4,1,,4,0,0,0,1,1,0,0,"Gray","Pokémon consisting of only a head",,"Klefki","Key Ring","Steel","Fairy"
+708,708,0.4,7,0,"phantump",6,3,4,,4,0,0,0,1,2,1,0,"Brown","Pokémon consisting of a head and arms",,"Phantump","Stump","Ghost","Grass"
+709,709,1.5,71,0,"trevenant",6,3,10,,4,0,0,0,2,2,0,1,"Brown","Pokémon with tentacles or a multiped body",,"Trevenant","Elder Tree","Ghost","Grass"
+710,710,0.4,5,0,"pumpkaboo",6,3,1,,4,0,0,0,1,2,1,0,"Brown","Pokémon consisting of only a head",,"Pumpkaboo","Pumpkin","Ghost","Grass"
+711,711,0.9,12.5,0,"gourgeist",6,3,5,,4,0,0,0,2,2,0,1,"Brown","Pokémon consisting of a head and a base",,"Gourgeist","Pumpkin","Ghost","Grass"
+712,712,1,99.5,0,"bergmite",6,2,8,,4,0,0,0,1,2,1,0,"Blue","Pokémon with a quadruped body",,"Bergmite","Ice Chunk","Ice",
+713,713,2,505,0,"avalugg",6,2,8,,4,0,0,0,2,2,0,1,"Blue","Pokémon with a quadruped body",,"Avalugg","Iceberg","Ice",
+714,714,0.5,8,0,"noibat",6,7,9,,4,0,0,0,1,2,1,0,"Purple","Pokémon with a single pair of wings",,"Noibat","Sound Wave","Flying","Dragon"
+715,715,1.5,85,0,"noivern",6,7,9,,4,0,0,0,2,2,0,1,"Purple","Pokémon with a single pair of wings",,"Noivern","Sound Wave","Flying","Dragon"
+716,716,3,215,0,"xerneas",6,2,8,,-1,0,0,1,1,1,0,0,"Blue","Pokémon with a quadruped body",,"Xerneas","Life","Fairy",
+717,717,5.8,203,0,"yveltal",6,8,9,,-1,0,0,0,1,1,0,0,"Red","Pokémon with a single pair of wings",,"Yveltal","Destruction","Dark","Flying"
+718,718,5,305,0,"zygarde",6,5,2,,-1,0,0,0,1,1,0,0,"Green","Pokémon with serpentine bodies",,"Zygarde","Order","Dragon","Ground"
+719,719,0.7,8.8,1,"diancie",6,6,4,,-1,0,0,1,1,1,0,0,"Pink","Pokémon consisting of a head and arms",,"Diancie","Jewel","Rock","Fairy"
+720,720,0.5,9,0,"hoopa",6,7,1,,-1,0,0,0,1,1,0,0,"Purple","Pokémon consisting of only a head",,"Hoopa","Mischief","Psychic","Ghost"
+721,721,1.7,195,0,"volcanion",6,3,1,,-1,0,0,0,1,1,0,0,"Brown","Pokémon consisting of only a head",,"Volcanion","Steam","Fire","Water"
