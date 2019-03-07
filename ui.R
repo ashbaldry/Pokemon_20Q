@@ -4,6 +4,22 @@ library(data.table)
 library(recoder)
 library(DT)
 
+#### Function ####
+inline_dropdown <- function(name, choices, choices_value = choices, default_text = "Select", value = NULL) {
+  unique_dropdown_class <- paste0("dropdown_name_", name)
+  class <- paste("ui inline basic dropdown", unique_dropdown_class)
+  shiny::tagList(
+    shiny::span(
+      class = class,
+      shiny_text_input(name, shiny::tags$input(type = "hidden", name = name), value = value),
+      shiny::div(class = "default text", default_text),
+      uimenu(purrr::map2(choices, choices_value, ~menu_item(`data-value` = .y, .x))),
+      uiicon("dropdown")
+    ),
+    shiny::tags$script(paste0("$('.ui.dropdown.", unique_dropdown_class, "').dropdown().dropdown('set selected', '", value, "');"))
+  )
+}
+
 #### UI ####
 semanticPage(
   title = "Pokémon 20 Questions",
@@ -69,13 +85,11 @@ semanticPage(
       div(
         class = "eight wide column",
         div(
-          class = "ui segment",
-          h4(strong(textOutput("questinfo")), style = "text-align: right;"),
+          class = "ui clearing segment",
+          h4(strong(textOutput("questinfo", inline = TRUE)), "/", inline_dropdown("nguesses", choices = seq(5, 20, 5), value = 20), style = "text-align: right;"),
           uiOutput("pokeguess"),
-          div(radioButtons("yncheck", "", c("Yes", "No", "Not Sure"), inline = TRUE), style = "text-align: center;"),
-          div(actionButton("ynenter", "Enter", icon("play")), style = "text-align: center;"),
-          selectInput("nguesses", "Number of Questions", seq(5, 20, 5), 20, width = 100),
-          tags$button(class = "ui reference button", "Reference Table"),
+          tags$br(),
+          tags$button(class = "ui right floated reference button", "Reference Table"),
           div(
             class = "ui reference modal",
             div(class = "header", "Pokémon Reference"),

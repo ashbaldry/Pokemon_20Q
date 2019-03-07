@@ -6,23 +6,22 @@ library(DT)
 #### Server####
 function(input, output, session) {
   pokereact <- reactiveValues(
-    Table = poketab, Eggs = pokeegg, Type = poketypeff, Guess = pokeguesstab,
-    CompScore = 0, PlayScore = 0, Question = 0,
-    QuestInfo = list(Question = list("Press Enter to start new game"))
+    poke_dt = poketab, poke_egg_dt = pokeegg, poke_type_dt = poketypeff, poke_gss_dt = pokeguesstab,
+    CompScore = 0, PlayScore = 0, Question = 0, QuestInfo = list()
   )
 
-  output$questinfo <- renderText(paste(input$ynenter - pokereact$Question, "/", input$nguesses))
+  output$questinfo <- renderText(paste(pokereact$Question))
   output$compscore <- renderText(pokereact$CompScore)
   output$playscore <- renderText(pokereact$PlayScore)
 
-  observeEvent(input$ynenter, {
+  observeEvent(pokereact$Question, {
     # Load data locally
-    pokeref <- pokereact$Table
-    pokeeggs <- pokereact$Eggs
-    pokeguess <- pokereact$Guess
-    poketypes <- pokereact$Type
+    pokeref <- pokereact$poke_dt
+    pokeeggs <- pokereact$poke_egg_dt
+    pokeguess <- pokereact$poke_gss_dt
+    poketypes <- pokereact$poke_type_dt
 
-    if (input$ynenter > 1 & input$ynenter - pokereact$Question > 1 & input$yncheck != "Not Sure" & nrow(pokeref) > 0) {
+    if (pokereact$Question > 1 & isTRUE(input$yncheck != "Not Sure") & nrow(pokeref) > 0) {
       correct <- isTRUE(input$yncheck == "Yes")
       question <- pokereact$QuestInfo$Question
       qtype <- pokereact$QuestInfo$QType
@@ -52,36 +51,44 @@ function(input, output, session) {
       pokeeggs <- pokeeggs[species_id %in% pokeref$species_id]
 
       # Add back to reractive pokereact
-      pokereact$Guess <- pokeguess
-      pokereact$Table <- pokeref
-      pokereact$Eggs <- pokeeggs
-      pokereact$Type <- poketypes
+      pokereact$poke_gss_dt <- pokeguess
+      pokereact$poke_dt <- pokeref
+      pokereact$poke_egg_dt <- pokeeggs
+      pokereact$poke_type_dt <- poketypes
     }
     pokereact$QuestInfo <- PokeQuestion(pokeguess, pokeref, pokeeggs, poketypes)
   })
 
   zero_guess_ui <- tagList(
     tags$button(
+      id = "zero_guess_button",
       class = "ui massive circular icon button action-button",
       style = "font-size: 4em;",
       tags$i(class = "play icon")
     )
   )
 
+  observeEvent(input$zero_guess_button, pokereact$Question <- 1)
+  observeEvent(input$ynenter, pokereact$Question <- pokereact$Question + 1)
+
   output$pokeguess <- renderUI({
-    if (input$ynenter - pokereact$Question == 0) return(zero_guess_ui)
+    if (pokereact$Question == 0) return(zero_guess_ui)
 
     nguesses <- as.numeric(input$nguesses)
-    if (nrow(pokereact$Table) > 1 & input$ynenter - pokereact$Question <= nguesses) {
-      h4(pokereact$QuestInfo$Question[[1]])
-    } else if (nrow(pokereact$Table) == 1 & input$ynenter - pokereact$Question <= nguesses) {
+    if (nrow(pokereact$poke_dt) > 1 & pokereact$Question <= nguesses) {
+      tagList(
+        h4(pokereact$QuestInfo$Question[[1]]),
+        div(radioButtons("yncheck", "", c("Yes", "No", "Not Sure"), inline = TRUE), style = "text-align: center;"),
+        tags$button(id = "ynenter", style = "text-align: center;", class = "ui button action-button", "Enter", tags$i(class = "play icon"))
+      )
+    } else if (nrow(pokereact$poke_dt) == 1 & pokereact$Question <= nguesses) {
       div(tagList(
         h4("Is this your Pokémon?"),
-        img(src = paste0("pokemon-icons/", pokereact$Table$species_id[1], ".png"), height = 75),
-        h5(strong(pokereact$Table$name)),
+        img(src = paste0("pokemon-icons/", pokereact$poke_dt$species_id[1], ".png"), height = 100),
+        h5(strong(pokereact$poke_dt$name)),
         fluidRow(
-          actionButton("finaly", "Yes", icon("check")),
-          actionButton("finaln", "No", icon("times"))
+          tags$button(id = "finaly", class = "ui button action-button", "Yes", tags$i(class = "check icon")),
+          tags$button(id = "finaln", class = "ui button action-button", "No", tags$i(class = "times icon"))
         )
       ), style = "text-align: center;")
     } else {
@@ -97,47 +104,40 @@ function(input, output, session) {
 
   observeEvent(input$restart, {
     pokereact$PlayScore <- pokereact$PlayScore + 1
-    pokereact$Question <- input$ynenter
-    pokereact$Table <- poketab
-    pokereact$Eggs <- pokeegg
-    pokereact$Type <- poketypeff
-    pokereact$Guess <- pokeguesstab
-    pokereact$QuestInfo <- list(Question = list("Press Enter to start new game"))
+    pokereact$Question <- 0
+    pokereact$poke_dt <- poketab
+    pokereact$poke_egg_dt <- pokeegg
+    pokereact$poke_type_dt <- poketypeff
+    pokereact$poke_gss_dt <- pokeguesstab
   })
   observeEvent(input$finaly, {
     pokereact$CompScore <- pokereact$CompScore + 1
-    pokereact$Question <- input$ynenter
-    pokereact$Table <- poketab
-    pokereact$Eggs <- pokeegg
-    pokereact$Type <- poketypeff
-    pokereact$Guess <- pokeguesstab
-    pokereact$QuestInfo <- list(Question = list("Press Enter to start new game"))
+    pokereact$Question <- 0
+    pokereact$poke_dt <- poketab
+    pokereact$poke_egg_dt <- pokeegg
+    pokereact$poke_type_dt <- poketypeff
+    pokereact$poke_gss_dt <- pokeguesstab
   })
   observeEvent(input$finaln, {
     pokereact$PlayScore <- pokereact$PlayScore + 1
-    pokereact$Question <- input$ynenter
-    pokereact$Table <- poketab
-    pokereact$Eggs <- pokeegg
-    pokereact$Type <- poketypeff
-    pokereact$Guess <- pokeguesstab
-    pokereact$QuestInfo <- list(Question = list("Press Enter to start new game"))
+    pokereact$Question <- 0
+    pokereact$poke_dt <- poketab
+    pokereact$poke_egg_dt <- pokeegg
+    pokereact$poke_type_dt <- poketypeff
+    pokereact$poke_gss_dt <- pokeguesstab
   })
 
-  observe(print(session$clientData$output_IndexTable_hidden))
-
   output$IndexTable <- DT::renderDataTable({
+    dt_names <- c("ID", "Name", "Sprite", "Height (m)", "Weight (kg)", "Egg Group", "Type 1", "Type 2")
+    dt_tab <- poketab[, .(species_id, name, height, weight, type_1, type_2)]
+    dt_tab[, sprite := paste0('<img src="pokemon-icons/', species_id, '.png", height=52></img>')]
+    egg_tab <- pokeegg[, list(egg_group = paste(egg_group_name, collapse = ", ")), by = species_id]
+    dt_tab <- dt_tab[egg_tab, on = "species_id"]
+    setcolorder(dt_tab, c("species_id", "name", "sprite", "height", "weight", "egg_group", "type_1", "type_2"))
+
     DT::datatable(
-      data.table(
-        `Pokemon ID` = poketab$species_id,
-        Name = poketab$name,
-        Sprite = paste0('<img src="pokemon-icons/', poketab$species_id, '.png", height=52></img>'),
-        `Height (m)` = poketab$height,
-        `Weight (kg)` = poketab$weight,
-        `Egg Types` = pokeegg[, paste(egg_group_name, collapse = ", "), by = "species_id"][[2]],
-        `Type 1` = poketab$type_1,
-        `Type 2` = poketab$type_2
-      ),
-      escape = FALSE, rownames = FALSE, filter = "top", options = list(scrollX = TRUE, dom = "tip")
+      dt_tab, colnames = dt_names, escape = FALSE, rownames = FALSE, filter = "top",
+      options = list(scrollX = TRUE, dom = "tip")
     )
   })
 }
