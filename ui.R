@@ -42,14 +42,14 @@ semanticPage(
         div(
           class = "content",
           h5(
-            "Here is an effort at making a 20 Question style app based on the world of Pokémon.",
-            "Basically think of\n any Pokémon from generations 1 - 7 and the app will ask questions",
-            "until there is either one Pokémon left\n and will show you the one it has guessed,",
-            "or if it can't guess then you have won."
+            "Welcome to the Pokémon 20 Question app. This works in the same way as a standard 20 Question but in the",
+            "world of Pokémon. You can select any one of the 721 monsters from Generations 1-6 and go through each",
+            "question, answering yes/no/don't know until there is either one Pokémon left\n and will show you the one it has guessed,",
+            "or if it can't guess in time then you have won."
           ),
           h5(
             "If you are finding that it is guessing it correctly too much for your liking, then to",
-            "make it easier for\n you, you can reduce the amount of questions the program can ask before it loses."
+            "make it easier for\n you, you can reduce the amount of questions the app can ask."
           ),
           h6(
             "Source code is available on",
@@ -86,7 +86,11 @@ semanticPage(
         class = "eight wide column",
         div(
           class = "ui clearing segment",
-          h4(strong(textOutput("questinfo", inline = TRUE)), "/", inline_dropdown("nguesses", choices = seq(5, 20, 5), value = 20), style = "text-align: right;"),
+          h4(
+            style = "text-align: right;",
+            strong(textOutput("questinfo", inline = TRUE)), "/",
+            inline_dropdown("nguesses", choices = seq(5, 20, 5), value = 20)
+          ),
           uiOutput("pokeguess"),
           tags$br(),
           tags$button(class = "ui right floated reference button", "Reference Table"),

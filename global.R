@@ -209,7 +209,7 @@ PokeQuestion <- function(pokeguess, pokeref, pokeeggs, poketypes) {
 
   ####Mega####
   if(qtype == 'Mega') {
-    pokeQ <- list(Question = 'Can the Pokémon mega evolve?')
+    pokeQ <- list(Question = 'Does the Pokémon have a mega evolution?')
   }
 
   ####Generation####
@@ -227,9 +227,9 @@ PokeQuestion <- function(pokeguess, pokeref, pokeeggs, poketypes) {
       minvers <- pokeverscombs[, which.min(abs(pokeverssums - nhalfpoke))]
     }
     if(length(minvers) == 1) {
-      pokeQ <- list(Question = paste0('Was the Pokémon\'s first occurance in version ', minvers, '?'), Version = minvers)
+      pokeQ <- list(Question = paste0('Did the Pokémon first appear in generation ', minvers, '?'), Version = minvers)
     } else {
-      pokeQ <- list(Question = paste0('Was the Pokémon\'s first occurance in any of the following versions: ',
+      pokeQ <- list(Question = paste0('Did the Pokémon first appear in any of the following generations: ',
                                       paste(minvers, collapse = ', '), '?'), Version = minvers)
     }
   }
@@ -237,7 +237,7 @@ PokeQuestion <- function(pokeguess, pokeref, pokeeggs, poketypes) {
   ####Colour####
   if(qtype == 'Colour') {
     col <- sample(pokeref$colour, 1)
-    pokeQ <- list(Question = paste0('Is the Pokémon primarily ', tolower(col), '?'), Colour = col)
+    pokeQ <- list(Question = paste0('Is the colour of the Pokémon primarily ', tolower(col), '?'), Colour = col)
   }
 
   ####Shape####
@@ -248,7 +248,7 @@ PokeQuestion <- function(pokeguess, pokeref, pokeeggs, poketypes) {
 
   ####Baby####
   if(qtype == 'Baby') {
-    pokeQ <- list(Question = 'Is the Pokémon a baby Pokémon?')
+    pokeQ <- list(Question = 'Is it a baby Pokémon?')
   }
 
   ####EvoStage####
@@ -272,19 +272,19 @@ PokeQuestion <- function(pokeguess, pokeref, pokeeggs, poketypes) {
   ####Type####
   if(qtype == 'Type') {
     type <- sample(c(pokeref$type_1, na.omit(pokeref$type_2)), 1)
-    pokeQ <- list(Question = paste0('Is it a', if(substr(type, 1, 1) %in% c('A', 'E', 'I', 'O', 'U')) 'n',
-                                    ' ', tolower(type), ' type Pokémon?'), Type = type)
+    pokeQ <- list(Question = paste0('Is the Pokémon a', if(substr(type, 1, 1) %in% c('A', 'E', 'I', 'O', 'U')) 'n',
+                                    ' ', tolower(type), ' type?'), Type = type)
   }
 
   ###DualType###
   if(qtype == 'DualType') {
-    pokeQ <- list(Question = 'Does the Pokémon have two types?')
+    pokeQ <- list(Question = 'Is it a dual type Pokémon?')
   }
 
   ####Egg####
   if(qtype == 'Egg') {
     eggtype <- sample(pokeeggs$egg_group_name, 1)
-    pokeQ <- list(Question = paste('Is the Pokémon part of the', tolower(eggtype), 'egg family?'), EggType = eggtype)
+    pokeQ <- list(Question = paste('Is the Pokémon come from the', tolower(eggtype), 'egg family?'), EggType = eggtype)
   }
 
   ####TypeEff####
@@ -293,11 +293,11 @@ PokeQuestion <- function(pokeguess, pokeref, pokeeggs, poketypes) {
     typeeff <- sample(poketypes[damage_type == type, damage_eff], 1)
     if(typeeff == 'No Effect') {
       pokeQ <- list(Question = paste0('Does a', if(substr(type, 1, 1) %in% c('A', 'E', 'I', 'O', 'U')) 'n', ' ',
-                                      tolower(type), ' attack have ', tolower(typeeff), ' on the Pokémon?'),
+                                      tolower(type), ' type attack have ', tolower(typeeff), ' on the Pokémon?'),
                     Type = type, Effect = typeeff)
     } else {
       pokeQ <- list(Question = paste0('Is a', if(substr(type, 1, 1) %in% c('A', 'E', 'I', 'O', 'U')) 'n', ' ',
-                                      tolower(type), ' attack ', tolower(typeeff), ' on the Pokémon?'),
+                                      tolower(type), ' type attack ', tolower(typeeff), ' on the Pokémon?'),
                     Type = type, Effect = typeeff)
     }
   }

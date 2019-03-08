@@ -79,6 +79,7 @@ function(input, output, session) {
       tagList(
         h4(pokereact$QuestInfo$Question[[1]]),
         div(radioButtons("yncheck", "", c("Yes", "No", "Not Sure"), inline = TRUE), style = "text-align: center;"),
+        tags$br(),
         tags$button(id = "ynenter", style = "text-align: center;", class = "ui button action-button", "Enter", tags$i(class = "play icon"))
       )
     } else if (nrow(pokereact$poke_dt) == 1 & pokereact$Question <= nguesses) {
